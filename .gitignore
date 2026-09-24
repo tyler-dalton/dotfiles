@@ -1,0 +1,11 @@
+# Editor / temp files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Secrets / credentials
+*.key
+*.pem
+.env
+.env.*
