@@ -1,0 +1,8 @@
+# =============
+# CONFIG FILE PATHS
+# (all config paths start with ~/.config ) - tld 9.24.26
+# =============
+ghostty         ghostty/config
+starship        starship.toml
+fastfetch       fastfetch/config.jsonc
+helpers         bash/helpers

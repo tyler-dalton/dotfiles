@@ -1,0 +1,63 @@
+# =============
+# GIT - tld 9.24.26
+# =============
+
+ALIASES
+---------------
+
+BASE
+g           git
+
+REPOSITORY
+gini        initialize repository
+gcl         clone repository
+
+STATUS / INSPECTION
+gst         status
+gdi         diff
+gds         diff staged changes
+gl          compact graph log
+gla         compact graph log, all branches
+
+STAGE
+ga          add
+gaa         add all changes
+
+COMMIT
+gc          signed commit
+gcm         signed commit with message
+
+BRANCHES
+gb          list branches
+gba         list all branches
+gbd         delete branch
+gbD         force delete branch
+gsw         switch branch
+gcb         create new branch
+
+REMOTE
+gr          show remotes
+gfo         fetch origin
+gfom        fetch origin main
+
+PULL / PUSH
+gpl         pull
+gplo        pull origin
+gpo         push origin
+gpu         push
+gpc         push current branch
+gpcu        push current branch + set upstream
+
+UNDO
+gundo       undo last commit, keep changes staged
+gunstage    unstage changes
+greset      restore changes
+
+STASH
+gstow       stash
+gstowl      list stashes
+gpop        pop stash
+gstowu      stash including untracked files
+
+FUNCTIONS
+---------------

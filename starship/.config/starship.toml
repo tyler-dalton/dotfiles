@@ -1,0 +1,30 @@
+add_newline = true
+
+[character]
+success_symbol = '[❯](bold green)'
+error_symbol = '[❯](bold red)'
+
+[directory]
+style = 'bold blue'
+truncation_length = 5
+truncate_to_repo = true
+truncation_symbol = "…/"
+
+[cmd_duration]
+min_time = 2000
+format = 'took [$duration](grey) '
+
+[time]
+disabled = false
+utc_time_offset = '-4'
+use_12hr = true
+style = 'bold white'
+format = '[$time]($style) '
+
+[hostname]
+ssh_only = false
+style = 'bold white'
+format = '[$hostname]($style) [](bold #E95420) '
+
+[git_commit]
+tag_disabled = false

@@ -1,0 +1,27 @@
+# =============
+# SHELL / NAVIGATION - tld 9.24.26
+# =============
+
+ALIASES
+---------------
+
+DIRECTORIES
+..          cd ..
+..2         cd ../..
+..3         cd ../../..
+..4         cd ../../../..
+..5         cd ../../../../..
+home        cd ~
+
+SHELL
+c           clear
+hist        history
+reload      source ~/.bashrc
+
+LISTING
+ll          detailed listing, including hidden files
+la          all files except . and ..
+l           compact listing
+
+FUNCTIONS
+---------------
