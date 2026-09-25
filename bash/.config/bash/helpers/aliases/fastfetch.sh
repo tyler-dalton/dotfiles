@@ -108,3 +108,10 @@ alias ff-pve='fastfetch --logo pve'
 alias ff-prism='fastfetch --logo prismlinux'
 
 
+# RASPBERRY PI
+alias ff-rpi='fastfetch --logo raspi'
+# RED HAT ENTERPRISE LINUX
+alias ff-rhel='fastfetch --logo rhel'
+
+
+# 
