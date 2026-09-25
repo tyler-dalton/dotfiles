@@ -24,6 +24,11 @@ alias reload='source ~/.bashrc'
 alias dl='cd ~/Downloads'
 alias dk='cd ~/Documents'
 
+alias mkdir='mkdir -pv'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -v'
+
 # =============
 # APT UPDATES & INSTALLS
 # =============
