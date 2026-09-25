@@ -50,3 +50,20 @@ extract() {
         *)          echo "Unsupported archive type: $1"; return 1 ;;
     esac
 }
+
+# Make a file executable
+## Use: chmodx script.sh
+# -------------
+chmodx() {
+    if [ -z "$1" ]; then
+        echo "Usage: chmodx <file>"
+        return 1
+    fi
+
+    if [ ! -f "$1" ]; then
+        echo "File not found: $1"
+        return 1
+    fi
+
+    chmod +x "$1"
+}
