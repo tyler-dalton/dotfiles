@@ -29,9 +29,8 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -v'
 
-# =============
 # APT UPDATES & INSTALLS
-# =============
+# -------------
 
 alias a='apt'
 alias sa='sudo apt'
@@ -49,24 +48,22 @@ alias aup='sudo apt update && sudo apt upgrade'
 alias aar='sudo apt autoremove'
 alias ac='sudo apt clean'
 
-# =============
 # EDITING & VIEWING HELPERS
-# =============
+# -------------
 
 alias bashrc='code ~/dotfiles/bash/.bashrc'
 alias helpers='code ~/dotfiles/bash/.config/bash/helpers'
 alias dot='code ~/dotfiles'
 
-# =============
 # POWER CONTROLS
-# =============
+# -------------
+
 alias boot='reboot'
 alias off='poweroff'
 alias sus='sysctmctl suspend'
 
-# =============
 # NETWORKING & WIFI
-# =============
+# -------------
 
 alias ping4='ping -c 4'
 alias pingg='ping -c 4 8.8.8.8'
@@ -79,9 +76,8 @@ alias wifioff='nmcli radio wifi off'
 alias wificonn='nmcli connection show'
 alias renm='sudo systemctl restart NetworkManager'
 
-# =============
 # SERVICES & LOGS
-# =============
+# -------------
 
 alias jc='journalctl'
 alias jcb='journalctl -b'
@@ -98,8 +94,7 @@ alias scstop='sudo systemctl stop'
 alias scu='systemctl --user'
 alias scnow='sudo systemctl enable --now'
 
-# =============
 # MISC
-# =============
+# -------------
 
 alias wttr='curl wttr.in'
