@@ -58,6 +58,13 @@ alias helpers='code ~/dotfiles/bash/.config/bash/helpers'
 alias dot='code ~/dotfiles'
 
 # =============
+# POWER CONTROLS
+# =============
+alias boot='reboot'
+alias off='poweroff'
+alias sus='sysctmctl suspend'
+
+# =============
 # NETWORKING & WIFI
 # =============
 
