@@ -1,5 +1,5 @@
 # =============
-# STARSHIP INIT - tld 9.24.26
+# STARSHIP INIT - tld 9.25.26
 # =============
 
 command -v starship >/dev/null 2>&1 &&

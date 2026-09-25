@@ -1,5 +1,5 @@
 # =============
-# ZOXIDE INIT - tld 9.24.26
+# ZOXIDE INIT - tld 9.25.26
 # =============
 
 command -v zoxide >/dev/null 2>&1 &&

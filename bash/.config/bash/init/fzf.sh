@@ -1,5 +1,5 @@
 # =============
-# FZF INIT - tld 9.24.26
+# FZF INIT - tld 9.25.26
 # =============
 
 [[ -r /usr/share/doc/fzf/examples/key-bindings.bash ]] &&
