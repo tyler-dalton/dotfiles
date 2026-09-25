@@ -33,7 +33,7 @@ alias hun='helm uninstall'
 
 alias hdep='helm dependency'
 alias hdepu='helm dependency update'
-alias hdepb='helm dependecny build'
+alias hdepb='helm dependency build'
 
 alias hl='helm lint'
 alias hl.='helm lint .'
@@ -63,7 +63,7 @@ alias hsrv='helm search repo --version'
 # -------------
 
 alias hpl='helm pull'
-alias hpsuh='helm push'
+alias hpush='helm push'
 
 # HELM UNITTEST
 # -------------
