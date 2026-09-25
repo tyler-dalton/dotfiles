@@ -131,3 +131,14 @@ alias kapiv='kubectl api-versions'
 alias ktopn='kubectl top nodes'
 alias ktopp='kubectl top pods'
 
+# KUSTOMIZE
+# -------------
+
+alias kk='kubectl kustomize'
+alias kkh='kubectl kustomize --enable-helm --load-restrictor LoadRestrictionsNone'
+
+# K8S COMPLETIONS
+# -------------
+
+source <(kubectl completion bash)
+complete -0 default -F __start_kubectl k
