@@ -92,12 +92,3 @@ bak() {
     cp -a -- "$1" "$destination" || return 1
     echo "Created backup: $destination"
 }
-
-# Commit & push current branch
-## Use: gcp main
-# -------------
-function gcp() {
-    git add .
-    git commit -m "$1" &&
-    git push origin "$(git branch --show-current)"
-}

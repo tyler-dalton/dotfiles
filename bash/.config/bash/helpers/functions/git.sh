@@ -8,3 +8,12 @@
 groot() {
     cd "$(git rev-parse --show-toplevel)" || return
 }
+
+# Commit & push current branch
+## Use: gcp "new dotfiles feature"
+# -------------
+function gcp() {
+    git add .
+    git commit -s -m "$1" &&
+    git push origin "$(git branch --show-current)"
+}
