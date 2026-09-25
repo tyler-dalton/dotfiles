@@ -67,3 +67,37 @@ chmodx() {
 
     chmod +x "$1"
 }
+
+# Create a timestamped backup
+## Use: bak values.yaml
+# -------------
+
+bak() {
+    if [ -z "$1" ]; then
+        echo "Usage: backup <file-or-directory>"
+        return 1
+    fi
+
+    if [ ! -e "$1" ]; then
+        echo "Path not found: $1"
+        return 1
+    fi
+
+    local timestamp
+    local destination
+
+    timestamp="$(date '+%Y-%m-%d - %H:%M')"
+    destination="${1}.${timestamp}.bak"
+
+    cp -a -- "$1" "$destination" || return 1
+    echo "Created backup: $destination"
+}
+
+# Commit & push current branch
+## Use: gcp main
+# -------------
+function gcp() {
+    git add .
+    git commit -m "$1" &&
+    git push origin "$(git branch --show-current)"
+}
