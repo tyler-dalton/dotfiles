@@ -68,6 +68,7 @@ alias sus='systemctl suspend'
 alias ping4='ping -c 4'
 alias pingg='ping -c 4 8.8.8.8'
 alias pingdns='ping -c 4 google.com'
+alias pubip='curl -s https://ifconfig.me'
 
 alias ipa='ip addr'
 alias ipr='iproute'
