@@ -38,3 +38,9 @@ alias ff-debian='fastfetch --logo debian'
 alias ff-ff='fastfetch --logo ff'
 alias ff-fedora='fastfetch --logo fedora'
 alias ff-freebsd='fastfetch --logo freebsd'
+
+
+alias ff-gentoo='fastfetch --logo gentoo'
+alias ff-ghotst='fastfetch --logo ghostfreak'
+alias ff-gnome='fastfetch --logo gnome'
+alias ff-gnu='fastfetch --logo gnu'
