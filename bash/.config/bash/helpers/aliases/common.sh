@@ -30,6 +30,21 @@ alias helpers='code ~/dotfiles/bash/.config/bash/helpers'
 alias dot='code ~/dotfiles'
 
 # =============
+# NETWORKING & WIFI
+# =============
+
+alias ping4='ping -c 4'
+alias pingg='ping -c 4 8.8.8.8'
+alias pingdns='ping -c 4 google.com'
+
+alias wifilist='nmcli device wifi list'
+alias wifistat='nmcli radio wifi'
+alias wifion='nmcli radio wifi on'
+alias wifioff='nmcli radio wifi off'
+alias wificonn='nmcli connection show'
+alias renm='sudo systemctl restart NetworkManager'
+
+# =============
 # MISC
 # =============
 
