@@ -38,24 +38,24 @@ alias kgnw='kubectl get nodes -o wide'
 # GET - ALL
 # -------------
 
-alias kgpa='kubectl get pods'
-alias kgda='kubectl get deployments'
-alias kgssa='kubectl get statefulsets'
-alias kgdsa='kubectl get daemonsets'
+alias kgpa='kubectl get pods -A'
+alias kgda='kubectl get deployments -A'
+alias kgssa='kubectl get statefulsets -A'
+alias kgdsa='kubectl get daemonsets -A'
 
-alias kgsvca='kubectl get services'
-alias kgia='kubectl get ingress'
+alias kgsvca='kubectl get services -A'
+alias kgia='kubectl get ingress -A'
 
-alias kgseca='kubectl get secrets'
-alias kgcma='kubectl get configmaps'
+alias kgseca='kubectl get secrets -A'
+alias kgcma='kubectl get configmaps -A'
 
-alias kgpvca='kubectl get pvc'
-alias kgpva='kubectl get pv'
+alias kgpvca='kubectl get pvc -A'
+alias kgpva='kubectl get pv -A'
 
-alias kgsaa='kubectl get serviceaccount'
+alias kgsaa='kubectl get serviceaccount -A'
 
-alias kgna='kubectl get nodes'
-alias kgnsa='kubectl get namespaces'
+alias kgna='kubectl get nodes -A'
+alias kgnsa='kubectl get namespaces -A'
 
 # DESCRIBE
 # -------------
