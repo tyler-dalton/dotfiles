@@ -90,3 +90,13 @@ alias klf='kubectl logs -f'
 alias ke='kubectl exec'
 alias kei='kubectl exec -it'
 
+# APPLY / DELETE
+# -------------
+
+alias kdel='kubectl delete'
+
+alias kaf='kubectl apply -f'
+alias kdf='kubectl delete -f'
+
+alias kak='kubectl apply -k'
+alias kdk='kubectl delete -k'
