@@ -103,3 +103,4 @@ alias sc-now='sudo systemctl enable --now'
 # -------------
 
 alias wttr='curl wttr.in'
+alias code-ext='code --list-extensions'
