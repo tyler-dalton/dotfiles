@@ -44,3 +44,6 @@ alias ff-gentoo='fastfetch --logo gentoo'
 alias ff-ghotst='fastfetch --logo ghostfreak'
 alias ff-gnome='fastfetch --logo gnome'
 alias ff-gnu='fastfetch --logo gnu'
+
+alias ff-kali='fastfetch --logo kali'
+alias ff-kde='fastfetch --logo kde-linux'
