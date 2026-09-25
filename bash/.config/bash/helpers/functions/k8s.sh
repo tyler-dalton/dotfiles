@@ -13,3 +13,8 @@ function kman() {
 
   echo "Rendered: $output"
 }
+
+# FIND ALL PODS FOR RESOURCE
+function kpods() {
+  kubectl get pods -A | grep -i "$1"
+}
