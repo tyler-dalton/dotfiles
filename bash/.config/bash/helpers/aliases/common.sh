@@ -54,11 +54,13 @@ alias renm='sudo systemctl restart NetworkManager'
 # SERVICES & LOGS
 # =============
 
-alias jctl='journalctl'
-alias jctlb='journalctl -b'
-alias jctllb='journalctl --list-boots'
-alias jctlerr='journalctl -p err'
-alias jctlerrb='journalctl -p err -b' 
+alias jc='journalctl'
+alias jcb='journalctl -b'
+alias jclb='journalctl --list-boots'
+alias jcerr='journalctl -p err'
+alias jcerrb='journalctl -p err -b'
+
+alias sctl=
 
 # =============
 # MISC
