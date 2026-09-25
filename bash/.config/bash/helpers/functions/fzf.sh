@@ -54,18 +54,3 @@ fzf_ssh() {
 bind -x '"\ep":fzf_process'
 bind -x '"\eg":fzf_git_branch'
 bind -x '"\es":fzf_ssh'
-
-export FZF_CTRL_R_OPTS="
-	--prompt='History ❯ '
-"
-
-export FZF_CTRL_T_OPTS="
-	--prompt='Files ❯ '
-	--preview 'bat --color=always --style=numbers --line-range=:500 {} 2>/dev/null'
-	--preview-window='right:55%:border-left'
-	--bind='ctrl-/:toggle-preview'
-"
-
-export FZF_CTRL_C_OPTS="
-	--prompt='Directories ❯ '
-"
