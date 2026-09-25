@@ -20,7 +20,7 @@ alias hlist='helm list'
 alias hlista='helm list -A'
 alias hs='helm status'
 alias hh='helm history'
-alias hr='helm rollback'
+alias hroll='helm rollback'
 
 # INSTALL / UPGRADE / UNINSTALL
 # -------------
