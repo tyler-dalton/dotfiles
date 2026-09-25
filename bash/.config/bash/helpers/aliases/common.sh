@@ -22,6 +22,12 @@ alias dl='cd ~/Downloads'
 alias dk='cd ~/Documents'
 
 # =============
+# APT UPDATES & INSTALLS
+# =============
+
+alias=
+
+# =============
 # EDITING & VIEWING HELPERS
 # =============
 
@@ -43,6 +49,16 @@ alias wifion='nmcli radio wifi on'
 alias wifioff='nmcli radio wifi off'
 alias wificonn='nmcli connection show'
 alias renm='sudo systemctl restart NetworkManager'
+
+# =============
+# SERVICES & LOGS
+# =============
+
+alias jctl='journalctl'
+alias jctlb='journalctl -b'
+alias jctllb='journalctl --list-boots'
+alias jctlerr='journalctl -p err'
+alias jctlerrb='journalctl -p err -b' 
 
 # =============
 # MISC
