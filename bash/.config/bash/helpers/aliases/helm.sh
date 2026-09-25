@@ -34,6 +34,7 @@ alias hun='helm uninstall'
 # -------------
 
 alias hdep='helm dependency'
+alias hdepl='helm dependency list'
 alias hdepu='helm dependency update'
 alias hdepb='helm dependency build'
 
@@ -69,6 +70,8 @@ alias hsh='helm search hub'
 
 alias hpl='helm pull'
 alias hpush='helm push'
+alias hregin='helm registry login'
+alias hregout='helm registry logout'
 
 # HELM TESTS
 # -------------
