@@ -78,4 +78,4 @@ alias hplug='helm plugin list'
 # -------------
 
 source <(helm completion bash)
-complete -0 default -F __start_helm h
+complete -o default -F __start_helm h
