@@ -100,3 +100,11 @@ alias kdf='kubectl delete -f'
 
 alias kak='kubectl apply -k'
 alias kdk='kubectl delete -k'
+
+# ROLLOUTS
+# -------------
+
+alias kr='kubectl rollout'
+alias krr='kubectl rollout restart'
+alias krs='kubectl rollout status'
+alias kru='kubectl rollout undo'
