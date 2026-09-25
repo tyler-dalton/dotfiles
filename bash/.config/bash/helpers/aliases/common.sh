@@ -25,7 +25,21 @@ alias dk='cd ~/Documents'
 # APT UPDATES & INSTALLS
 # =============
 
-alias=
+alias a='apt'
+alias sa='sudo apt'
+alias ai='sudo apt install'
+alias ar='sudo apt remove'
+alias ap='sudo apt purge'
+
+alias as='apt search'
+alias ash='apt show'
+
+alias au='sudo apt update'
+alias aug='sudo apt upgrade'
+alias aup='sudo apt update && sudo apt upgrade'
+
+alias aar='sudo apt autoremove'
+alias ac='sudo apt clean'
 
 # =============
 # EDITING & VIEWING HELPERS
