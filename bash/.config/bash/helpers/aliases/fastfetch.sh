@@ -33,3 +33,8 @@ alias ff-cachy='fastfetch --logo cachyos'
 alias ff-chrome='fastfetch --logo chrom'
 
 alias ff-debian='fastfetch --logo debian'
+
+
+alias ff-ff='fastfetch --logo ff'
+alias ff-fedora='fastfetch --logo fedora'
+alias ff-freebsd='fastfetch --logo freebsd'
