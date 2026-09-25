@@ -11,6 +11,7 @@ alias hr='helm repo'
 alias hra='helm repo add'
 alias hru='helm repo update'
 alias hrl='helm repo list'
+alias hrr='helm repo remove'
 
 # RELEASES
 # -------------
@@ -19,6 +20,7 @@ alias hlist='helm list'
 alias hlista='helm list -A'
 alias hs='helm status'
 alias hh='helm history'
+alias hr='helm rollback'
 
 # INSTALL / UPGRADE / UNINSTALL
 # -------------
@@ -49,6 +51,8 @@ alias hsa='helm show all'
 
 alias hgv='helm get values'
 alias hgm='helm get manifest'
+alias hgn='helm get notes'
+alias hga='helm get all'
 
 # DEBUG / DRY-RUN / SEARCH / VERSION
 # -------------
@@ -58,6 +62,7 @@ alias hudry='helm upgrade --install --dry-run --debug'
 alias hsr='helm search repo'
 alias hv='helm version'
 alias hsrv='helm search repo --version'
+alias hsh='helm search hub'
 
 # OCI / CHARTS
 # -------------
@@ -65,9 +70,10 @@ alias hsrv='helm search repo --version'
 alias hpl='helm pull'
 alias hpush='helm push'
 
-# HELM UNITTEST
+# HELM TESTS
 # -------------
 alias hutest='helm unittest'
+alias htest='helm test'
 
 # PLUGINS
 # -------------
