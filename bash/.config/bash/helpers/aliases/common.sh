@@ -60,7 +60,7 @@ alias dot='code ~/dotfiles'
 
 alias boot='reboot'
 alias off='poweroff'
-alias sus='sysctmctl suspend'
+alias sus='systemctl suspend'
 
 # NETWORKING & WIFI
 # -------------
