@@ -35,7 +35,7 @@ alias ff-bedrock='fastfetch --logo bedrock'
 # BLACK ARCH
 alias ff-blackarch='fastfetch --logo blackarch'
 # BONSAI
-alias ff-bonsai='festfetch --logo bonsai'
+alias ff-bonsai='fastfetch --logo bonsai'
 # BSD
 alias ff-bsd='fastfetch --logo bsd'
 
