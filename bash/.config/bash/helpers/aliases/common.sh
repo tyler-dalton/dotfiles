@@ -28,3 +28,9 @@ alias dk='cd ~/Documents'
 alias bashrc='code ~/dotfiles/bash/.bashrc'
 alias helpers='code ~/dotfiles/bash/.config/bash/helpers'
 alias dot='code ~/dotfiles'
+
+# =============
+# MISC
+# =============
+
+alias wttr='curl wttr.in'
