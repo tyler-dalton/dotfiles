@@ -92,3 +92,14 @@ bak() {
     cp -a -- "$1" "$destination" || return 1
     echo "Created backup: $destination"
 }
+
+# Temporarily set IP address and IP route
+## Use: ipa-set eno1 192.168.3.33/24
+## Use: ipr-set eno1 192.168.3.1
+# -------------
+
+ipa-set() { sudo ip addr add "$2" dev "$1"; }
+ipa-del() { sudo ip addr del "$2" dev "$1"; }
+
+ipr-set() { sudo ip route replace default via "$2" dev "$1"; }
+ipr-del() { sudo ip route del default via "$2" dev "$1"; }
