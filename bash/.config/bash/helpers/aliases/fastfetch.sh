@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # FASTFETCH - tld 9.25.26
 # =============

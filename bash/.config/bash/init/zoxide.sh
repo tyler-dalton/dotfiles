@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # ZOXIDE INIT - tld 9.25.26
 # =============

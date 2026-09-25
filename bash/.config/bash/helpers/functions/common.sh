@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # COMMON FUNCTIONS - tld 9.25.26
 # =============

@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # K8S - tld tld 9.25.26
 # =============

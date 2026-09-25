@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # FZF CUSTOM KEYBINDS - tld 9.25.26
 # =============

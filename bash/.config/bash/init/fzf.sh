@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # FZF INIT - tld 9.25.26
 # =============

@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # HELM - tld 9.25.26
 # =============

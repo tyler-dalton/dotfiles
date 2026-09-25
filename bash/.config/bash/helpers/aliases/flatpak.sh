@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # FLATPAK - tld 9.25.26
 # =============

@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # GIT - tld 9.24.26
 # =============

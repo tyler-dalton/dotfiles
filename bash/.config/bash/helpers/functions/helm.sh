@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # HELM FUNCTIONS - tld 9.25.26
 # =============

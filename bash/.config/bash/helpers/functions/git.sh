@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # GIT ALIASES - tld 9.25.26
 # =============

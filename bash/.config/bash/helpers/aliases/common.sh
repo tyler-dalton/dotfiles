@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # SHELL / NAVIGATION - tld 9.25.26
 # =============
