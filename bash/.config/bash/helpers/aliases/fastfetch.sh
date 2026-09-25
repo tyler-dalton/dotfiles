@@ -85,3 +85,11 @@ alias ff-nix='fastfetch --logo nixos'
 alias ff-nix2='fastfetch --logo nixos_old'
 # NET HYDRA
 alias ff-nethydra='fastfetch --logo nethydra'
+
+
+# OPENBSD
+alias ff-openbsd='fastfetch --logo openbsd'
+# OPENSUSE
+alias ff-opensuse='fastfetch --logo opensuse'
+# OPNSENSE
+alias ff-opnsense='fastfetch --logo opnsense'
