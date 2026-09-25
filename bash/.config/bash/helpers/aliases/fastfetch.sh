@@ -115,6 +115,8 @@ alias ff-prism='fastfetch --logo prismlinux'
 alias ff-rpi='fastfetch --logo raspi'
 # RED HAT ENTERPRISE LINUX
 alias ff-rhel='fastfetch --logo rhel'
+# ROCKET
+alias ff-rocket='fastfetch --logo xcp-ng'
 
 
 # SPOINK OS
@@ -150,4 +152,5 @@ alias ff-win2='fastfetch --logo "windows 11"'
 alias ff-win3='fastfetch --logo "windows 95"'
 
 
-#
+# ZORIN OS
+alias ff-zorin='fastfetch --logo zorin'
