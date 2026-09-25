@@ -108,3 +108,26 @@ alias kr='kubectl rollout'
 alias krr='kubectl rollout restart'
 alias krs='kubectl rollout status'
 alias kru='kubectl rollout undo'
+
+# DEBUG / UTILITIES
+# -------------
+
+alias kctx='kubectl config current-context'
+alias kctxs='kubectl config get-contexts'
+alias kusectx='kubectl config use-context'
+
+alias kev='kubectl get events --sort-by=.metadata.creationTimestamp'
+
+alias ksetns='kubectl config set-context --current --namespace'
+alias kprintns='kubectl config view --minify --output "jsonpath={..namespace}"; echo'
+
+alias kpf='kubectl port-forward'
+alias kcp='kubectl cp'
+alias 'k?'='kubectl explain'
+
+alias kapi='kubectl api-resources'
+alias kapiv='kubectl api-versions'
+
+alias ktopn='kubectl top nodes'
+alias ktopp='kubectl top pods'
+
