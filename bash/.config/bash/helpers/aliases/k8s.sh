@@ -83,3 +83,10 @@ alias kdns='kubectl describe namespace'
 
 # LOGS / EXEC
 # -------------
+
+alias kl='kubectl logs'
+alias klf='kubectl logs -f'
+
+alias ke='kubectl exec'
+alias kei='kubectl exec -it'
+
