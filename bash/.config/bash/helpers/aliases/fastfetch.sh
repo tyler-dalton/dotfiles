@@ -16,6 +16,7 @@ alias ff-tux3='fastfetch --logo linux'
 alias ff-tux4='fastfetch --logo lfs'
 alias ff-tux5='fastfetch --logo locos'
 alias ff-crux='fastfetch --logo crux'
+alias ff-vnux='fastfetch --logo nvux'
 # ALMA
 alias ff-alma='fastfetch --logo almalinux'
 # APPLE
@@ -136,4 +137,9 @@ alias ff-ubuntu2='fastfetch --logo ubuntu_old'
 alias ff-ubuntu3='fastfetch --logo ubuntu-budgie --logo-color-1 "38;2;233;84;32"'
 
 
-# 
+# VOID
+alias ff-void='fastfetch --logo void2'
+alias ff-void2='fastfetch --logo void'
+
+
+#
