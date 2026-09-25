@@ -1,5 +1,5 @@
 # =============
-# HELM FUNCTIONS - tld 9.24.26
+# HELM FUNCTIONS - tld 9.25.26
 # =============
 
 function hvalidate() {

@@ -1,5 +1,5 @@
 # =============
-# FLATPAK - tld 9.24.26
+# FLATPAK - tld 9.25.26
 # =============
 
 alias flt='flatpak'

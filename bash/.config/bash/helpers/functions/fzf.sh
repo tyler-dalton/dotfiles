@@ -1,5 +1,5 @@
 # =============
-# FZF CUSTOM KEYBINDS - tld 9.24.26
+# FZF CUSTOM KEYBINDS - tld 9.25.26
 # =============
 
 # Alt+P - Select a process and insert its PID

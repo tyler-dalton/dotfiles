@@ -1,5 +1,5 @@
 # =============
-# K8S FUNCTIONS - tld 9.24.26
+# K8S FUNCTIONS - tld 9.25.26
 # =============
 
 function kman() {

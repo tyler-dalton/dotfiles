@@ -1,5 +1,5 @@
 # =============
-# SHELL / NAVIGATION - tld 9.24.25
+# SHELL / NAVIGATION - tld 9.25.26
 # =============
 
 alias ..='cd ..'
