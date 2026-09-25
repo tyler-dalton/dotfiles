@@ -142,4 +142,12 @@ alias ff-void='fastfetch --logo void2'
 alias ff-void2='fastfetch --logo void'
 
 
+# WII
+alias ff-wii='fastfetch --logo wiilinux'
+# WINDOWS
+alias ff-win='fastfetch --logo windows'
+alias ff-win2='fastfetch --logo "windows 11"'
+alias ff-win3='fastfetch --logo "windows 95"'
+
+
 #
