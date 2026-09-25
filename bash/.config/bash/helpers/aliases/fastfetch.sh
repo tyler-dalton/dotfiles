@@ -47,6 +47,8 @@ alias ff-chrome='fastfetch --logo chrom'
 
 # DEBIAN
 alias ff-debian='fastfetch --logo debian'
+# DONKEY
+alias ff-donkey='fastfetch --logo sulin'
 
 
 # FASTFETCH
@@ -114,4 +116,13 @@ alias ff-rpi='fastfetch --logo raspi'
 alias ff-rhel='fastfetch --logo rhel'
 
 
-# 
+# SPOINK OS
+alias ff-spoink='fastfetch --logo spoinkos'
+# STEAM
+alias ff-steam='fastfetch --logo steamos'
+# SUSE
+alias ff-suse='fastfetch --logo suse'
+
+
+
+
