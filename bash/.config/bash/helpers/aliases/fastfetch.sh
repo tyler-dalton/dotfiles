@@ -128,3 +128,12 @@ alias ff-suse='fastfetch --logo suse'
 alias ff-tails='fastfetch --logo tails --logo-color-1 "38;2;95;42;117'
 # TEMPLEOS
 alias ff-temple='fastfetch --logo templeos'
+
+
+# UBUNTU
+alias ff-ubuntu='fastfetch --logo ubuntu'
+alias ff-ubuntu2='fastfetch --logo ubuntu_old'
+alias ff-ubuntu3='fastfetch --logo ubuntu-budgie --logo-color-1 "38;2;233;84;32"'
+
+
+# 
