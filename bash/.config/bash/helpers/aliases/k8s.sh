@@ -1,0 +1,85 @@
+# =============
+# K8S - tld 9.24.26
+# =============
+
+alias k='kubectl'
+
+# GET
+# -------------
+
+alias kg='kubectl get'
+
+alias kgp='kubectl get pods'
+alias kgd='kubectl get deployments'
+alias kgss='kubectl get statefulsets'
+alias kgds='kubectl get daemonsets'
+
+alias kgsvc='kubectl get services'
+alias kgi='kubectl get ingress'
+
+alias kgsec='kubectl get secrets'
+alias kgcm='kubectl get configmaps'
+
+alias kgpvc='kubectl get pvc'
+alias kgpv='kubectl get pv'
+
+alias kgsa='kubectl get serviceaccount'
+
+alias kgn='kubectl get nodes'
+alias kgns='kubectl get namespaces'
+
+alias kga='kubectl get all'
+
+# WIDE OUTPUT
+alias kgpw='kubectl get pods -o wide'
+alias kgpaw='kubectl get pods -A -o wide'
+alias kgnw='kubectl get nodes -o wide'
+
+# GET - ALL
+# -------------
+
+alias kgpa='kubectl get pods'
+alias kgda='kubectl get deployments'
+alias kgssa='kubectl get statefulsets'
+alias kgdsa='kubectl get daemonsets'
+
+alias kgsvca='kubectl get services'
+alias kgia='kubectl get ingress'
+
+alias kgseca='kubectl get secrets'
+alias kgcma='kubectl get configmaps'
+
+alias kgpvca='kubectl get pvc'
+alias kgpva='kubectl get pv'
+
+alias kgsaa='kubectl get serviceaccount'
+
+alias kgna='kubectl get nodes'
+alias kgnsa='kubectl get namespaces'
+
+# DESCRIBE
+# -------------
+
+alias kd='kubectl describe'
+
+alias kdp='kubectl describe pod'
+alias kdd='kubectl describe deployment'
+alias kdss='kubectl describe statefulset'
+alias kdds='kubectl describe daemonset'
+
+alias kdsvc='kubectl describe service'
+alias kdi='kubectl describe ingress'
+
+alias kdsec='kubectl describe secret'
+alias kdcm='kubectl describe configmap'
+
+alias kdpvc='kubectl describe pvc'
+alias kdpv='kubectl describe pv'
+
+alias kdsa='kubectl describe serviceaccount'
+
+alias kdn='kubectl describe node'
+alias kdns='kubectl describe namespace'
+
+# LOGS / EXEC
+# -------------
