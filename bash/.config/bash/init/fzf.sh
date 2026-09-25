@@ -37,6 +37,6 @@ export FZF_CTRL_T_OPTS="
 	--bind='ctrl-/:toggle-preview'
 "
 
-export FZF_CTRL_C_OPTS="
+export FZF_ALT_C_OPTS="
 	--prompt='Directories ❯ '
 "
