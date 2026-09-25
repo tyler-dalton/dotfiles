@@ -39,9 +39,9 @@ fzf_ssh() {
 	host=$(
 		awk '
 			tolower($1) == "host" {
-				for (i = 2; i<= NF; i++) {
-					if ($i !~ /[*?!]\)
-						print $1
+				for (i = 2; i <= NF; i++) {
+					if ($i !~ /[*?!]/)
+						print $i
 				}
 			}
 		' ~/.ssh/config |
