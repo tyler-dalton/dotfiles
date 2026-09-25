@@ -12,9 +12,12 @@ alias home='cd ~'
 alias c='clear'
 alias hist='history'
 
-alias ll='ls -alF --color=auto --group-directories-first'
-alias la='ls -A --color=auto --group-directories-first'
-alias l='ls -CF --color=auto --group-directories-first'
+alias ll='eza -alF --color=auto --group-directories-first'
+alias ls='ls -alF --color=auto --group-directories-first'
+alias la='eza -AF --color=auto --group-directories-first'
+alias l='eza -CF --color=auto --group-directories-first'
+alias lt='eza --tree --level=2 --group-directories-first --icons'
+alias lgit='eza -alF --git --group-directories-first --icons'
 
 alias reload='source ~/.bashrc'
 
