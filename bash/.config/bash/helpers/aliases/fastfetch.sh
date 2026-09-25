@@ -78,3 +78,10 @@ alias ff-mint='fastfetch --logo linuxmint'
 alias ff-manjaro='fastfetch --logo manjaro'
 # MX LINUX
 alias ff-mx='fastfetch --logo mx'
+
+
+# NIX OS
+alias ff-nix='fastfetch --logo nixos'
+alias ff-nix2='fastfetch --logo nixos_old'
+# NET HYDRA
+alias ff-nethydra='fastfetch --logo nethydra'
