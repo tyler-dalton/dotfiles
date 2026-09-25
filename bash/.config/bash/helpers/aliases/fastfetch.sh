@@ -22,6 +22,7 @@ alias ff-alma='fastfetch --logo almalinux'
 alias ff-apple='fastfetch --logo apple'
 alias ff-apple2='fastfetch --logo macos2'
 alias ff-apple3='fastfetch --logo macos3'
+alias ff-pear='fastfetch --logo pearos'
 # ARCH
 alias ff-arch='fastfetch --logo arch'
 alias ff-arch2='fastfetch --logo arch2'
@@ -93,3 +94,17 @@ alias ff-openbsd='fastfetch --logo openbsd'
 alias ff-opensuse='fastfetch --logo opensuse'
 # OPNSENSE
 alias ff-opnsense='fastfetch --logo opnsense'
+
+
+# PAC BSD
+alias ff-pacbsd='fastfetch --logo pacbsd'
+# PARRROT OS
+alias ff-parrot='fastfetch --logo parrot'
+# POP OS
+alias ff-pop='fastfetch --logo pop'
+# PROXMOX
+alias ff-pve='fastfetch --logo pve'
+# PRISM LINUX
+alias ff-prism='fastfetch --logo prismlinux'
+
+
