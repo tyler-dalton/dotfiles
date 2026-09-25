@@ -60,7 +60,14 @@ alias jclb='journalctl --list-boots'
 alias jcerr='journalctl -p err'
 alias jcerrb='journalctl -p err -b'
 
-alias sctl=
+alias sc='systemctl'
+alias scre='sudo systemctl restart'
+alias scstat='systemctl status'
+alias scen='sudo systemctl enable'
+alias scstart='sudo systemctl start'
+alias scstop='sudo systemctl stop'
+alias scu='systemctl --user'
+alias scnow='sudo systemctl enable --now'
 
 # =============
 # MISC
