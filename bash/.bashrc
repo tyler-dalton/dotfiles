@@ -38,8 +38,6 @@ if [ -x /usr/bin/dircolors ]; then
     #alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -48,6 +46,12 @@ fi
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# =============
+# ENVIRONMENT - tld 9.25.26
+# =============
+
+export PATH="$HOME/.local/bin:$PATH"
 
 # =============
 # HELPERS - tld 9.24.26
@@ -63,6 +67,16 @@ done
 
 unset helper_file
 
+# =============
+# TOOL INITIALIZATION - tld 9.25.26
+# =============
+
+for init_file in "$HOME"/.config/bash/init/*.sh; do
+    [[ -r "$init_file" ]] && source "$init_file"
+done
+
+unset init_file
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -73,37 +87,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-eval "$(starship init bash)"
-
-export PATH="$HOME/.local/bin:$PATH"
 
 
-# =============
-# FZF
-# =============
-source /usr/share/doc/fzf/examples/key-bindings.bash
-source /usr/share/doc/fzf/examples/completion.bash
-
-# =============
-# FZF CUSTOM STYLING
-# =============
-export FZF_DEFAULT_OPTS="
-	--height=45%
-	--layout=reverse
-	--border=rounded
-	--info=inline-right
-	--prompt='❯ '
-	--pointer='▶'
-	--marker='✓'
-	--cycle
-	--scrollbar='|'
-	--separator='─'
-	--color='pointer:blue'
-	--wrap
-"
-
-# =============
-# ZOXIDE
-# =============
-
-eval "$(zoxide init bash)"
