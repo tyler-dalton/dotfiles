@@ -12,6 +12,7 @@ alias ffll='fastfetch --list-logos'
 # MISC.
 alias ff-tux='fastfetch --logo altlinux'
 alias ff-tux2='fastfetch --logo calculate'
+alias ff-crux='fastfetch --logo crux'
 # ALMA
 alias ff-alma='fastfetch --logo almalinux'
 # APPLE
@@ -27,4 +28,7 @@ alias ff-bedrock='fastfetch --logo bedrock'
 alias ff-blackarch='fastfetch --logo blackarch'
 alias ff-bonsai='festfetch --logo bonsai'
 alias ff-bsd='fastfetch --logo bsd'
+
+alias ff-cachy='fastfetch --logo cachyos'
+alias ff-chrome='fastfetch --logo chrom'
 
