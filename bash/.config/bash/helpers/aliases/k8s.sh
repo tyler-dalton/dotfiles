@@ -141,4 +141,4 @@ alias kkh='kubectl kustomize --enable-helm --load-restrictor LoadRestrictionsNon
 # -------------
 
 source <(kubectl completion bash)
-complete -0 default -F __start_kubectl k
+complete -o default -F __start_kubectl k
