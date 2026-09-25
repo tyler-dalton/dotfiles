@@ -69,30 +69,34 @@ alias ping4='ping -c 4'
 alias pingg='ping -c 4 8.8.8.8'
 alias pingdns='ping -c 4 google.com'
 
-alias wifilist='nmcli device wifi list'
-alias wifistat='nmcli radio wifi'
-alias wifion='nmcli radio wifi on'
-alias wifioff='nmcli radio wifi off'
-alias wificonn='nmcli connection show'
+alias ipa='ip addr'
+alias ipr='iproute'
+alias ports='ss -tulpn'
+
+alias wifi-list='nmcli device wifi list'
+alias wifi-stat='nmcli radio wifi'
+alias wifi-on='nmcli radio wifi on'
+alias wifi-off='nmcli radio wifi off'
+alias wifi-conn='nmcli connection show'
 alias renm='sudo systemctl restart NetworkManager'
 
 # SERVICES & LOGS
 # -------------
 
 alias jc='journalctl'
-alias jcb='journalctl -b'
-alias jclb='journalctl --list-boots'
-alias jcerr='journalctl -p err'
-alias jcerrb='journalctl -p err -b'
+alias jc-b='journalctl -b'
+alias jc-lb='journalctl --list-boots'
+alias jc-err='journalctl -p err'
+alias jc-errb='journalctl -p err -b'
 
 alias sc='systemctl'
-alias scre='sudo systemctl restart'
-alias scstat='systemctl status'
-alias scen='sudo systemctl enable'
-alias scstart='sudo systemctl start'
-alias scstop='sudo systemctl stop'
-alias scu='systemctl --user'
-alias scnow='sudo systemctl enable --now'
+alias sc-re='sudo systemctl restart'
+alias sc-stat='systemctl status'
+alias sc-en='sudo systemctl enable'
+alias sc-start='sudo systemctl start'
+alias sc-stop='sudo systemctl stop'
+alias sc-u='systemctl --user'
+alias sc-now='sudo systemctl enable --now'
 
 # MISC
 # -------------
