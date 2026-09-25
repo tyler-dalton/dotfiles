@@ -22,6 +22,7 @@ alias kgcm='kubectl get configmaps'
 
 alias kgpvc='kubectl get pvc'
 alias kgpv='kubectl get pv'
+alias kgcrd='kubectl get crd'
 
 alias kgsa='kubectl get serviceaccount'
 
@@ -51,6 +52,7 @@ alias kgcma='kubectl get configmaps -A'
 
 alias kgpvca='kubectl get pvc -A'
 alias kgpva='kubectl get pv -A'
+alias kgcrda='kubectl get crd -A'
 
 alias kgsaa='kubectl get serviceaccount -A'
 
@@ -75,22 +77,28 @@ alias kdcm='kubectl describe configmap'
 
 alias kdpvc='kubectl describe pvc'
 alias kdpv='kubectl describe pv'
+alias kdcrd='kubectl describe crd'
 
 alias kdsa='kubectl describe serviceaccount'
 
 alias kdn='kubectl describe node'
 alias kdns='kubectl describe namespace'
 
-# LOGS / EXEC
+# LOGS / EXEC / EVENTS
 # -------------
 
 alias kl='kubectl logs'
 alias klf='kubectl logs -f'
+alias klfa='kubectl logs -f --all-containers'
+alias klp='kubectl logs -p'
+
+alias kevw='kubectl get events --watch'
+alias keva='kubectl get events -A --sort-by=.metadata.creationTimestamp'
 
 alias ke='kubectl exec'
 alias kei='kubectl exec -it'
 
-# APPLY / DELETE
+# APPLY / DELETE / EDIT
 # -------------
 
 alias kdel='kubectl delete'
@@ -101,6 +109,9 @@ alias kdf='kubectl delete -f'
 alias kak='kubectl apply -k'
 alias kdk='kubectl delete -k'
 
+alias kedit='kubectl edit'
+alias kscale='kubectl scale'
+
 # ROLLOUTS
 # -------------
 
@@ -108,6 +119,7 @@ alias kr='kubectl rollout'
 alias krr='kubectl rollout restart'
 alias krs='kubectl rollout status'
 alias kru='kubectl rollout undo'
+alias krh='kubectl rollout history'
 
 # DEBUG / UTILITIES
 # -------------
@@ -130,6 +142,11 @@ alias kapiv='kubectl api-versions'
 
 alias ktopn='kubectl top nodes'
 alias ktopp='kubectl top pods'
+
+alias kdi='kubectl diff -f'
+alias kcani='kubectl auth can-i'
+alias kdebug='kubectl debug'
+alias kwait='kubectl wait'
 
 # KUSTOMIZE
 # -------------
