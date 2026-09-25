@@ -1,0 +1,15 @@
+bceskavich.theme-dracula-at-night
+davidanson.vscode-markdownlint
+esbenp.prettier-vscode
+file-icons.file-icons
+foxundermoon.shell-format
+gruntfuggly.todo-tree
+helm-ls.helm-ls
+ms-kubernetes-tools.vscode-kubernetes-tools
+oderwat.indent-rainbow
+redhat.vscode-yaml
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries
+usernamehw.errorlens
+wayou.vscode-todo-highlight
+yzhang.markdown-all-in-one
