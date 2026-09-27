@@ -1,0 +1,25 @@
+# =============
+# FLATPAK - tld 9.26.26
+# =============
+
+ALIASES
+# -------------
+flt             flatpak
+flti app        install an app
+fltrem app      remove an app
+fltu            update installed apps and runtimes
+fltlist         list installed apps
+
+COMMON COMMANDS
+# -------------
+flatpak search term                 find an app
+flatpak run app.id                  launch by application ID
+flatpak info app.id                 show app details and permissions
+flatpak uninstall --unused          remove unused runtimes
+flatpak override --user --filesystem=path app.id
+                                  grant an app a filesystem path
+
+DISCOVERY
+# -------------
+flatpak remotes                     list configured remotes
+flatpak remote-ls flathub           browse Flathub application IDs
