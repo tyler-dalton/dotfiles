@@ -1,0 +1,20 @@
+# =============
+# GHOSTTY - tld 9.26.26
+# =============
+
+CONFIG
+# -------------
+~/.config/ghostty/config       main configuration file
+
+USEFUL ACTIONS
+# -------------
+new terminal                   Ctrl+Shift+N
+new tab                        Ctrl+Shift+T
+close tab/window               Ctrl+Shift+W
+split right                    Ctrl+Shift+D
+split down                     Ctrl+Shift+E
+next split                     Ctrl+Alt+Right
+previous split                 Ctrl+Alt+Left
+
+Tip: use Ghostty's Settings / keybind documentation when changing these;
+desktop and package versions can customize the default bindings.
