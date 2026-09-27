@@ -1,0 +1,23 @@
+# =============
+# FZF - tld 9.26.26
+# =============
+
+Ctrl+R      shell history
+Ctrl+T      search files / file paths
+Alt+C       search & cd directory
+Alt+P       select process
+Alt+G       select a local Git branch and switch to it
+Alt+S       select SSH host
+
+** + Tab    trigger shell completion, then narrow with fzf
+
+TAB         select
+SHIFT+TAB   deselect
+Ctrl+A      select all
+Ctrl+D      deselect all
+
+CUSTOM BINDS
+# -------------
+Alt+P       inserts the selected process PID at the cursor
+Alt+G       works only inside a Git repository
+Alt+S       reads named hosts from ~/.ssh/config
