@@ -1,0 +1,55 @@
+# =============
+# HELM - tld 9.26.26
+# =============
+
+REPOSITORIES
+# -------------
+hr              helm repo
+hra name url    add repository
+hru             update repositories
+hrl             list repositories
+hrr name        remove repository
+
+RELEASES
+# -------------
+hlist           list releases in current namespace
+hlista          list releases in all namespaces
+hs release      release status
+hh release      release history
+hroll release revision
+                roll back a release
+
+INSTALL / UPGRADE
+# -------------
+hi name chart   install
+hu name chart   upgrade
+hui name chart  upgrade or install
+hun name        uninstall
+hdry name chart install dry-run with debug output
+hudry name chart
+                upgrade/install dry-run with debug output
+
+CHART WORK
+# -------------
+hdep            helm dependency
+hdepl           list dependencies
+hdepu           update dependencies
+hdepb           build dependencies
+hl              lint chart
+hl.             lint current directory
+ht name chart   render templates
+hp chart        package chart
+hvalidate [dir] build dependencies, lint, and render a chart
+
+INSPECT / SEARCH
+# -------------
+hsv chart       show default values
+hsc chart       show chart metadata
+hsa chart       show all chart information
+hgv release     get applied values
+hgm release     get manifest
+hgn release     get notes
+hga release     get all release data
+hsr term        search repo
+hsh term        search Artifact Hub
+hv              version
