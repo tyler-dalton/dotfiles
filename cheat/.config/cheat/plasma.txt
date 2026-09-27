@@ -1,0 +1,40 @@
+# =============
+# KDE PLASMA / WORKFLOW - tld 9.26.26
+# =============
+
+
+LAUNCH / SEARCH
+# -------------
+Alt+Space       KRunner: apps, files, math, commands, windows
+Meta            typically opens the application launcher
+
+APP SHORTCUTS
+# -------------
+System Settings > Keyboard > Shortcuts > Custom Shortcuts
+                create a Command/URL global shortcut
+kmenuedit       attach a shortcut directly to a launcher entry
+
+APPIMAGE SHORTCUTS
+# -------------
+Use its executable's complete path, for example:
+/home/dalt/Applications/Obsidian.AppImage
+Avoid desktop-entry placeholders such as %U in a command shortcut.
+
+PANEL
+# -------------
+Right-click panel > Enter Edit Mode
+                move, remove, or configure widgets
+Right-click panel > Add Widgets
+                add Application Dashboard, Global Menu, etc.
+
+GLOBAL MENU
+# -------------
+Only apps that export their menu to KDE move File/Edit/etc. to the panel.
+Electron apps such as VS Code may keep their menu inside the app window.
+
+USEFUL COMMANDS
+# -------------
+kmenuedit       edit application-launcher entries
+systemsettings   open KDE System Settings
+plasmashell --replace
+                restart the desktop shell (use only to recover panel glitches)
