@@ -1,0 +1,15 @@
+# =============
+# CONFIG FILE PATHS - tld 9.26.26
+# =============
+
+# All paths are relative to ~/.config unless noted.
+# -------------
+
+ghostty         ghostty/config
+starship        starship.toml
+fastfetch       fastfetch/config.jsonc
+helpers         bash/helpers
+cheat           cheat
+Code/User       VS Code user settings
+../.bashrc      Bash entrypoint
+../dotfiles     Stow-managed dotfiles repository
