@@ -1,0 +1,24 @@
+# =============
+# FASTFETCH - tld 9.26.26
+# =============
+
+ALIASES
+# -------------
+ff              run the configured fastfetch display
+ffl             display with the configured logo
+ffll            list every available logo
+
+FAVORITE LOGOS
+# -------------
+ff-arch         Arch
+ff-apple        Apple
+ff-win          Windows
+ff-tux          Tux the Linux mascot
+
+CONFIG
+# -------------
+~/.config/fastfetch/config.jsonc
+
+TRY A LOGO
+# -------------
+fastfetch --logo NAME
