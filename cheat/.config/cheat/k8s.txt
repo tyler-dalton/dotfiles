@@ -1,0 +1,76 @@
+# =============
+# KUBERNETES - tld 9.26.26
+# =============
+
+BASE
+# -------------
+k               kubectl
+kg resource     get resource
+kd resource     describe resource
+kdel resource   delete resource
+kedit resource  edit resource
+
+COMMON GETS
+# -------------
+kgp             pods
+kgpa            pods in all namespaces
+kgpw            pods, wide output
+kgpaw           all-namespace pods, wide output
+kgd             deployments
+kgsvc           services
+kgi             ingresses
+kgn             nodes
+kgns            namespaces
+kga             common resources
+
+LOGS / EXEC
+# -------------
+kl pod          logs
+klf pod         follow logs
+klfa pod        follow all container logs
+klp pod         previous container logs
+ke pod -- cmd   exec command
+kei pod -- cmd  interactive exec
+
+APPLY / ROLLOUT
+# -------------
+kaf file        apply manifest file
+kdf file        delete manifest file
+kak dir         apply kustomization
+kdk dir         delete kustomization
+kr              rollout
+krr deploy/name restart rollout
+krs deploy/name rollout status
+kru deploy/name undo rollout
+krh deploy/name rollout history
+
+CONTEXT / NAMESPACE
+# -------------
+kctx            current context
+kctxs           list contexts
+kusectx name    switch context
+ksetns name     set current-context namespace
+kprintns        print current namespace
+
+DEBUGGING
+# -------------
+kev             events, chronological
+kevw            watch events
+kcani verb res  check authorization
+kdebug          kubectl debug
+kwait           kubectl wait
+kpf             port-forward
+kcp             copy files to/from a container
+k? resource     explain resource
+kapi            list API resources
+kapiv           list API versions
+ktopn           node resource use
+ktopp           pod resource use
+kpods term      find matching pods across all namespaces
+
+KUSTOMIZE
+# -------------
+kk dir          render kustomization
+kkh dir         render Kustomize with Helm enabled
+kman [dir] [file]
+                render to manifest.yaml (or supplied file)
