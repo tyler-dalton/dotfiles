@@ -1,0 +1,98 @@
+# =============
+# SHELL / NAVIGATION - tld 9.26.26
+# =============
+
+DIRECTORIES
+# -------------
+..          cd ..
+..2         cd ../..
+..3         cd ../../..
+..4         cd ../../../..
+..5         cd ../../../../..
+home        cd ~
+dl          cd ~/Downloads
+dk          cd ~/Documents
+mkcd dir    create a directory, then enter it
+
+SHELL / FILES
+# -------------
+c           clear
+hist        history
+reload      reload ~/.bashrc
+ll          detailed eza listing, including hidden files
+ls          detailed listing, including hidden files
+la          all files except . and ..
+l           compact listing
+lt          two-level directory tree with icons
+lgit        detailed listing with Git status and icons
+mkdir dir   create parents and print created directories
+cp src dst  interactive, verbose copy
+mv src dst  interactive, verbose move
+rm file     verbose remove
+extract f   extract a supported archive
+chmodx f    make a file executable
+bak path    create a timestamped backup beside path
+
+APT
+# -------------
+a cmd       apt
+sa cmd      sudo apt
+ai pkg      install package
+ar pkg      remove package
+ap pkg      purge package
+as term     search packages
+ash pkg     show package details
+au          update package lists
+aug         upgrade installed packages
+aup         update, then upgrade
+aar         remove unused packages
+ac          clean package cache
+
+DOTFILES / EDITING
+# -------------
+bashrc      open Bash config in VS Code
+helpers     open Bash helpers in VS Code
+dot         open dotfiles repo in VS Code
+
+POWER
+# -------------
+boot        reboot
+off         power off
+sus         suspend
+
+NETWORK
+# -------------
+ping4 host  send four pings
+pingg       ping 8.8.8.8 four times
+pingdns     ping google.com four times
+pubip       print public IP address
+ipa         show IP addresses
+ipr         show routes
+ports       show listening sockets
+wifi-list   list Wi-Fi networks
+wifi-stat   show Wi-Fi radio state
+wifi-on     enable Wi-Fi
+wifi-off    disable Wi-Fi
+wifi-conn   list NetworkManager connections
+renm        restart NetworkManager
+
+SERVICES / LOGS
+# -------------
+jc          journalctl
+jc-b        current boot journal
+jc-lb       list boots
+jc-err      error-priority journal entries
+jc-errb     errors from current boot
+sc          systemctl
+sc-stat svc  service status
+sc-re svc   restart service as root
+sc-en svc   enable service as root
+sc-start s  start service as root
+sc-stop s   stop service as root
+sc-u        user systemctl
+sc-now svc  enable and start service as root
+
+MISC
+# -------------
+wttr        weather in terminal
+code-ext    list installed VS Code extensions
