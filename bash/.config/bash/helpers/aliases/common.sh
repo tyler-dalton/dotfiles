@@ -55,6 +55,7 @@ alias ac='sudo apt clean'
 alias bashrc='code ~/dotfiles/bash/.bashrc'
 alias helpers='code ~/dotfiles/bash/.config/bash/helpers'
 alias dot='code ~/dotfiles'
+alias port='code ~/portfolio'
 
 # POWER CONTROLS
 # -------------
