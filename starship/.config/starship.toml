@@ -34,3 +34,8 @@ disabled = true
 [package]
 symbol = ''
 format = 'is [$version](bold yellow) '
+
+[git_branch]
+symbol = ' '
+style = 'bold purple'
+format = 'on [$symbol$branch]($style) '
