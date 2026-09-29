@@ -14,6 +14,21 @@ fi
 # SHORTCUT COSMETICS
 # -------------
 
+export FZF_CTRL_T_COMMAND="
+    fd --type f --hidden --folow \
+    --exclude .git \
+    --exclude node_modules \
+    --exclude .cache
+"
+export FZF_ALT_C_COMMAND="fd --type d --hidden --follow \
+    --exclude .git \
+    --exclude node_modules \
+    --exclude .cache
+"
+
+# SHORTCUT COSMETICS
+# -------------
+
 export FZF_DEFAULT_OPTS="
     --height=45%
     --layout=reverse
