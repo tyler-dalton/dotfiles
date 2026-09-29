@@ -50,7 +50,13 @@ export FZF_CTRL_R_OPTS="
 
 export FZF_CTRL_T_OPTS="
 	--prompt='Files ❯ '
-	--preview 'bat --color=always --style=numbers --line-range=:500 {} 2>/dev/null'
+	--preview '
+        if [[ -d {} ]]; then
+            eza --tree --level=2 --color=always {}
+        else
+            bat --color=always --style=numbers --line-range=:500 {}
+        fi 2>/dev/null
+    '
 	--preview-window='right:55%:border-left'
 	--bind='ctrl-/:toggle-preview'
 "
