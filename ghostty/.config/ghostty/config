@@ -18,3 +18,5 @@ background-blur-radius = 0
 
 scrollback-limit = 100000000
 scroll-to-bottom = keystroke,no-output
+
+copy-on-select = clipboard
