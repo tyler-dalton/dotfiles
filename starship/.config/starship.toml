@@ -50,9 +50,27 @@ format = '\([$state( $progress_current/$progress_total)]($style)\) '
 rebase = '[REBASING](bold #BD93F9)'
 merge = '[MERGING](bold #FFC857)'
 
-[nodejs]
-disabled = true
+[kubernetes]
+disabled = false
+symbol = '☸ '
+style = 'bold #326CE5'
+format = '[$symbol]($style) '
+detect_files = [
+  'kustomization.yaml',
+  'deployment.yaml',
+  'service.yaml',
+  'namespace.yaml' ]
+detect_folders = [
+  'k8s',
+  'kubernetes',
+  'helm',
+  'charts' ]
+
+
 
 [package]
 symbol = ''
 format = 'is [$version](bold #FFD700) '
+
+[nodejs]
+disabled = true
