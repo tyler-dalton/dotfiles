@@ -50,23 +50,10 @@ format = '\([$state( $progress_current/$progress_total)]($style)\) '
 rebase = '[REBASING](bold #BD93F9)'
 merge = '[MERGING](bold #FFC857)'
 
-[kubernetes]
-disabled = false
-symbol = '☸ '
-style = 'bold #326CE5'
-format = '[$symbol]($style) '
-detect_files = [
-  'kustomization.yaml',
-  'deployment.yaml',
-  'service.yaml',
-  'namespace.yaml' ]
-detect_folders = [
-  'k8s',
-  'kubernetes',
-  'helm',
-  'charts' ]
-
-
+[helm]
+symbol = '⎈'
+style = 'bold #0F1689'
+format = '[$symbol Helm]($style) '
 
 [package]
 symbol = ''
