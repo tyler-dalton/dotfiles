@@ -1,3 +1,4 @@
+astro-build.astro-vscode
 bceskavich.theme-dracula-at-night
 davidanson.vscode-markdownlint
 esbenp.prettier-vscode
