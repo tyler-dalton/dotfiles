@@ -5,7 +5,7 @@ success_symbol = '[❯](bold green)'
 error_symbol = '[❯](bold red)'
 
 [directory]
-style = 'bold blue'
+style = 'bold #4EA1FF'
 truncation_length = 5
 truncate_to_repo = true
 truncation_symbol = "…/"
@@ -30,7 +30,7 @@ tag_disabled = false
 
 [git_branch]
 symbol = ' '
-style = 'bold purple'
+style = 'bold #C678DD'
 format = 'on [$symbol$branch]($style) '
 
 [git_status]
@@ -41,7 +41,7 @@ deleted = '-${count} '
 renamed = '»${count} '
 conflicted = '=${count} '
 stashed = '$${count} '
-ahead = '↑${count}'
+ahead = '[↑${count}](bold cyan)'
 behind = '↓${count}'
 
 [git_state]
