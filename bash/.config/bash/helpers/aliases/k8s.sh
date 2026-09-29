@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 # =============
-# K8S - tld tld 9.25.26
+# K8S - tld 9.29.26
 # =============
 
 alias k='kubectl'
