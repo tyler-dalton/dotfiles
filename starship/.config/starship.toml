@@ -27,3 +27,6 @@ format = '[$hostname]($style) [](bold #E95420) '
 
 [git_commit]
 tag_disabled = false
+
+[nodejs]
+disabled = true
