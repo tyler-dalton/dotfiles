@@ -17,6 +17,7 @@ background-opacity = 0.90
 background-blur-radius = 0
 
 scrollback-limit = 100000000
+# Snap to prompt if key is typed, but not if there is a rollig output
 scroll-to-bottom = keystroke,no-output
 scrollbar = never
 
@@ -27,6 +28,7 @@ mouse-reporting = true
 
 shell-integration = bash
 
+# Use ctrl + shift + up/down to quickly snap between prompts when outputs get long
 keybind = ctrl+shift+up=jump_to_prompt:-1
 keybind = ctrl+shift_down=jump_to_prompt:1
 
