@@ -1,8 +1,8 @@
 add_newline = true
 
 [character]
-success_symbol = '[❯](bold green)'
-error_symbol = '[❯](bold red)'
+success_symbol = '[❯](bold #50D75A)'
+error_symbol = '[❯](bold #FF5C57)'
 
 [directory]
 style = 'bold #4EA1FF'
@@ -12,17 +12,17 @@ truncation_symbol = "…/"
 
 [cmd_duration]
 min_time = 2000
-format = 'took [$duration](grey) '
+format = 'took [$duration](#BBBBBB) '
 
 [time]
 disabled = false
 use_12hr = true
-style = 'bold white'
+style = 'bold #BBBBBB'
 format = '[$time]($style) '
 
 [hostname]
 ssh_only = false
-style = 'bold white'
+style = 'bold #BBBBBB'
 format = '[$hostname]($style) [](bold #E95420) '
 
 [git_commit]
@@ -47,7 +47,7 @@ behind = '[↓${count}](bold #E5C07B)'
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
-rebase = '[REBASING](bold #8D93F9)'
+rebase = '[REBASING](bold #BD93F9)'
 merge = '[MERGING](bold #FFC857)'
 
 [nodejs]
@@ -55,4 +55,4 @@ disabled = true
 
 [package]
 symbol = ''
-format = 'is [$version](bold yellow) '
+format = 'is [$version](bold #FFD700) '
