@@ -63,4 +63,7 @@ export FZF_CTRL_T_OPTS="
 
 export FZF_ALT_C_OPTS="
 	--prompt='Directories ❯ '
+    --preview 'eza --tree --level=2 --color=always {} 2>/dev/null'
+    --preview-window='right:55%:border-left'
+    --bind='ctrl-/:toggle-preview'
 "
