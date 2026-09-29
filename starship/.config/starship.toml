@@ -34,20 +34,21 @@ style = 'bold #C678DD'
 format = 'on [$symbol$branch]($style) '
 
 [git_status]
-modified = '!${count} '
-staged = '+${count} '
-untracked = '?${count} '
-deleted = '-${count} '
-renamed = '»${count} '
-conflicted = '=${count} '
-stashed = '$${count} '
-ahead = '[↑${count}](bold cyan)'
-behind = '↓${count}'
+format = '([\[](#777777)$all_status$ahead_behind[\]](#777777))'
+modified = '[!${count}](bold #FF9E64) '
+staged = '[+${count}](bold #50FA7B) '
+untracked = '[?${count}](bold #61AFEF) '
+deleted = '[-${count}](bold #FF6E67) '
+renamed = '[»${count}](bold #C678DD) '
+conflicted = '[=${count}](bold #FF3B3B) '
+stashed = '[$${count}](bold #2E8B57) '
+ahead = '[↑${count}](bold #00FFFF)'
+behind = '[↓${count}](bold #E5C07B)'
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
-rebase = 'REBASING'
-merge = 'MERGING'
+rebase = '[REBASING](bold #8D93F9)'
+merge = '[MERGING](bold #FFC857)'
 
 [nodejs]
 disabled = true
