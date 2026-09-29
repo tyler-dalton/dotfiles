@@ -144,7 +144,7 @@ alias kapiv='kubectl api-versions'
 alias ktopn='kubectl top nodes'
 alias ktopp='kubectl top pods'
 
-alias kdi='kubectl diff -f'
+alias kdiff='kubectl diff -f'
 alias kcani='kubectl auth can-i'
 alias kdebug='kubectl debug'
 alias kwait='kubectl wait'
