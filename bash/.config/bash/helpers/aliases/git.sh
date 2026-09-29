@@ -49,7 +49,11 @@ alias gfom='git fetch origin main'
 alias gpl='git pull'
 alias gplo='git pull origin'
 alias gpo='git push origin'
+alias gpom='git push origin main'
 alias gpu='git push'
+alias gpuo='git push -u origin'
+alias gpod='git push origin --delete'
+alias gm='git merge'
 
 ## push current branch
 alias gpc='git push origin "$(git branch --show-current)"'
