@@ -73,7 +73,7 @@ alias pingdns='ping -c 4 google.com'
 alias pubip='curl -s https://ifconfig.me'
 
 alias ipa='ip addr'
-alias ipr='iproute'
+alias ipr='ip route'
 alias ports='ss -tulpn'
 
 alias wifi-list='nmcli device wifi list'
