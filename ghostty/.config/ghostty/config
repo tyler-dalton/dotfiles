@@ -31,3 +31,4 @@ keybind = ctrl+shift_down=jump_to_prompt:1
 
 notify-on-command-finish = unfoucused
 notify-on-command-finish-action = notify
+app-notifications = config-reload
