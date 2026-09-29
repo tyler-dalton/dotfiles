@@ -25,6 +25,8 @@ copy-on-select = clipboard
 
 mouse-hide-while-typing = true
 mouse-reporting = true
+# Guarantee that Shift + mouse click is reserved for terminal selection
+mouse-shift-capture = never
 
 shell-integration = bash
 
