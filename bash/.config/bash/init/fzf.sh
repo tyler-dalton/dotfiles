@@ -3,11 +3,13 @@
 # FZF INIT - tld 9.25.26
 # =============
 
-[[ -r /usr/share/doc/fzf/examples/key-bindings.bash ]] &&
-    source /usr/share/doc/fzf/examples/key-bindings.bash
+if command -v fzf >/dev/null 2>&1; then
+    [[ -r /usr/share/doc/fzf/examples/key-bindings.bash ]] &&
+        source /usr/share/doc/fzf/examples/key-bindings.bash
 
-[[ -r /usr/share/doc/fzf/examples/completion.bash ]] &&
-    source /usr/share/doc/fzf/examples/completion.bash
+    [[ -r /usr/share/doc/fzf/examples/completion.bash ]] &&
+        source /usr/share/doc/fzf/examples/completion.bash
+fi
 
 # SHORTCUT COSMETICS
 # -------------
