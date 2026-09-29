@@ -28,14 +28,30 @@ format = '[$hostname]($style) [](bold #E95420) '
 [git_commit]
 tag_disabled = false
 
+[git_branch]
+symbol = ' '
+style = 'bold purple'
+format = 'on [$symbol$branch]($style) '
+
+[git_status]
+modified = '!${count} '
+staged = '+${count} '
+untracked = '?${count} '
+deleted = '-${count} '
+renamed = '»${count} '
+conflicted = '=${count} '
+stashed = '$${count} '
+ahead = '↑${count}'
+behind = '↓${count}'
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+rebase = 'REBASING'
+merge = 'MERGING'
+
 [nodejs]
 disabled = true
 
 [package]
 symbol = ''
 format = 'is [$version](bold yellow) '
-
-[git_branch]
-symbol = ' '
-style = 'bold purple'
-format = 'on [$symbol$branch]($style) '
