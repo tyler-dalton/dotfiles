@@ -20,3 +20,6 @@ scrollback-limit = 100000000
 scroll-to-bottom = keystroke,no-output
 
 copy-on-select = clipboard
+
+mouse-hide-while-typing = true
+mouse-reporting = true
