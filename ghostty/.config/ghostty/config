@@ -23,3 +23,8 @@ copy-on-select = clipboard
 
 mouse-hide-while-typing = true
 mouse-reporting = true
+
+shell-integration = bash
+
+keybind = ctrl+shift+up=jump_to_prompt:-1
+keybind = ctrl+shift_down=jump_to_prompt:1
