@@ -9,3 +9,7 @@
 *.pem
 .env
 .env.*
+*.p12
+*.pfx
+.envrc
+.netrc
