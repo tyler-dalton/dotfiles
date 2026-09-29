@@ -30,3 +30,7 @@ tag_disabled = false
 
 [nodejs]
 disabled = true
+
+[package]
+symbol = ''
+format = 'is [$version](bold yellow) '
