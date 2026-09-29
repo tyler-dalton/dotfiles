@@ -16,7 +16,6 @@ format = 'took [$duration](grey) '
 
 [time]
 disabled = false
-utc_time_offset = '-4'
 use_12hr = true
 style = 'bold white'
 format = '[$time]($style) '
