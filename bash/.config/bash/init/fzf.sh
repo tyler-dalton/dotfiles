@@ -14,17 +14,8 @@ fi
 # SHORTCUT COSMETICS
 # -------------
 
-export FZF_CTRL_T_COMMAND="
-    fd --type f --hidden --folow \
-    --exclude .git \
-    --exclude node_modules \
-    --exclude .cache
-"
-export FZF_ALT_C_COMMAND="fd --type d --hidden --follow \
-    --exclude .git \
-    --exclude node_modules \
-    --exclude .cache
-"
+export FZF_CTRL_T_COMMAND='fd --type f --hidden --follow --exclude .git --exclude node_modules --exclude .cache'
+export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git --exclude node_modules --exclude .cache'
 
 # SHORTCUT COSMETICS
 # -------------
@@ -45,12 +36,12 @@ export FZF_DEFAULT_OPTS="
 "
 
 export FZF_CTRL_R_OPTS="
-	--prompt='History ❯ '
+    --prompt='History ❯ '
 "
 
 export FZF_CTRL_T_OPTS="
-	--prompt='Files ❯ '
-	--preview '
+    --prompt='Files ❯ '
+    --preview '
         if [[ -d {} ]]; then
             eza --tree --level=2 --color=always {}
         else
@@ -63,7 +54,6 @@ export FZF_CTRL_T_OPTS="
 
 export FZF_ALT_C_OPTS="
 	--prompt='Directories ❯ '
-    --preview 'eza --tree --level=2 --color=always {} 2>/dev/null'
+    --preview='eza --tree --level=2 --color=always {} 2>/dev/null'
     --preview-window='right:55%:border-left'
-    --bind='ctrl-/:toggle-preview'
-"
+    --bind='ctrl-/:toggle-preview' "
