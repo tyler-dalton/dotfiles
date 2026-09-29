@@ -29,6 +29,6 @@ shell-integration = bash
 keybind = ctrl+shift+up=jump_to_prompt:-1
 keybind = ctrl+shift_down=jump_to_prompt:1
 
-notify-on-command-finish = unfoucused
+notify-on-command-finish = unfocused
 notify-on-command-finish-action = notify
 app-notifications = config-reload
