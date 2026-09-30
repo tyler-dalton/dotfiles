@@ -70,7 +70,7 @@ alias ff-freebsd='fastfetch --logo freebsd'
 # GENTOO
 alias ff-gentoo='fastfetch --logo gentoo'
 # GHOST FREAK
-alias ff-ghotst='fastfetch --logo ghostfreak'
+alias ff-ghost='fastfetch --logo ghostfreak'
 # GNOME
 alias ff-gnome='fastfetch --logo gnome'
 # GNU
