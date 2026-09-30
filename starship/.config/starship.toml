@@ -1,3 +1,7 @@
+# =============
+# STARSHIP CONFIG - tld 9.29.26
+# =============
+
 add_newline = true
 
 [character]
