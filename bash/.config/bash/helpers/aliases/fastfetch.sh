@@ -23,7 +23,7 @@ alias ff-tux3='fastfetch --logo linux'
 alias ff-tux4='fastfetch --logo lfs'
 alias ff-tux5='fastfetch --logo locos'
 alias ff-crux='fastfetch --logo crux'
-alias ff-vnux='fastfetch --logo nvux'
+alias ff-vnux='fastfetch --logo vnux'
 # ALMA
 alias ff-alma='fastfetch --logo almalinux'
 # APPLE
