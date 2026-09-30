@@ -3,3 +3,53 @@
 	name = Tyler Dalton
 [init]
 	defaultBranch = main
+[core]
+  editor = code --wait
+  autocrlf = input
+  whitespace = trailing-space,space-before-tab
+[pull]
+  rebase = false
+[fetch]
+  prune = true
+  pruneTags = true
+[push]
+  default = simple
+  autoSetupRemote = true
+  followTags = true
+[branch]
+  sort = -committerdate
+[tag]
+  sort = version:refname
+[rerere]
+  enabled = true
+[diff]
+  algorithm = histogram
+  colorMoved = zebra
+  mnemonicPrefix = true
+[merge]
+  conflictStyle = zdiff3
+  stat = true
+[status]
+  short = true
+  branch = true
+[commit]
+  verbose = true
+[help]
+  autocorrect = prompt
+[apply]
+  whitespace = fix
+[log]
+  date = iso
+[rebase]
+  autoStash = true
+  autoSquash = true
+[gc]
+  auto = 256
+[maintenance]
+  auto = true
+[credential]
+  helper = cache
+[advice]
+  skippedCherryPicks = false
+[checkout]
+  defaultRemote = origin
