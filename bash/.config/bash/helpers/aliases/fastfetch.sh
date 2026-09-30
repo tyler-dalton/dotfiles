@@ -9,9 +9,9 @@ alias ffll='fastfetch --list-logos'
 
 # CUSTOM LOGOS
 # -------------
-alias fftd='fastfetch --logo td'
-alias fftld='fastfetch --logo tld'
-alias ffzeus='fastfetch --logo zeus'
+alias ff-td='fastfetch --logo td'
+alias ff-tld='fastfetch --logo tld'
+alias ff-zeus='fastfetch --logo zeus'
 
 # QUICK LOGOS
 # -------------
