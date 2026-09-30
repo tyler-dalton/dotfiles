@@ -19,7 +19,7 @@ function gcp() {
         return 1
     fi
 
-    read -r p "WARNING: You are about to stage, commit, and push ALL changes. Continue? (y/n) " confirm
+    read -r -p "WARNING: You are about to stage, commit, and push ALL changes. Continue? (y/n) " confirm
 
     case "$confirm" in
         y|Y)
