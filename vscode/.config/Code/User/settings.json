@@ -131,4 +131,5 @@
     "wttr"
   ],
   "todo-tree.general.exportPath": "/usr/bin/rg",
+  "redhat.telemetry.enabled": false,
 }

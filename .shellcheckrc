@@ -1,0 +1,7 @@
+# Follow sourced files when possible
+
+source-path=SCRIPTDIR
+
+## External sourced files may not exist in CI
+
+external-sources=true
