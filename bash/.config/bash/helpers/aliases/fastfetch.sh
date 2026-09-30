@@ -1,11 +1,17 @@
 # shellcheck shell=bash
 # =============
-# FASTFETCH - tld 9.25.26
+# FASTFETCH - tld 9.30.26
 # =============
 
 alias ff='fastfetch'
 alias ffl='fastfetch --logo'
 alias ffll='fastfetch --list-logos'
+
+# CUSTOM LOGOS
+# -------------
+alias fftd='fastfetch --logo td'
+alias fftld='fastfetch --logo tld'
+alias ffzeus='fastfetch --logo zeus'
 
 # QUICK LOGOS
 # -------------
