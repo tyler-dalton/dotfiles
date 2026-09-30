@@ -83,9 +83,3 @@ alias htest='helm test'
 # -------------
 
 alias hplug='helm plugin list'
-
-# HELM COMPLETION
-# -------------
-
-source <(helm completion bash)
-complete -o default -F __start_helm h

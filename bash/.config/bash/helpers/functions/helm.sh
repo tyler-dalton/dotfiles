@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 # =============
-# HELM FUNCTIONS - tld 9.25.26
+# HELM FUNCTIONS - tld 9.26.26
 # =============
 
 function hvalidate() {
