@@ -4,13 +4,15 @@
 # =============
 
 if command -v fzf >/dev/null 2>&1; then
-    [[ -r /usr/share/doc/fzf/examples/key-bindings.bash ]] &&
+    if [[ -r /usr/share/doc/fzf/examples/key-bindings.bash ]]; then
         # shellcheck disable=SC1091
         source /usr/share/doc/fzf/examples/key-bindings.bash
+    fi
 
-    [[ -r /usr/share/doc/fzf/examples/completion.bash ]] &&
+    if [[ -r /usr/share/doc/fzf/examples/completion.bash ]]; then
         # shellcheck disable=SC1091
         source /usr/share/doc/fzf/examples/completion.bash
+    fi
 fi
 
 # SHORTCUT COSMETICS
@@ -22,6 +24,7 @@ export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git --exclude
 # SHORTCUT COSMETICS
 # -------------
 
+# shellcheck disable=SC2031
 export FZF_DEFAULT_OPTS="
     --height=45%
     --layout=reverse
