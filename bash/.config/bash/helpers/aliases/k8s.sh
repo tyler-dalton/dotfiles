@@ -154,9 +154,3 @@ alias kwait='kubectl wait'
 
 alias kk='kubectl kustomize'
 alias kkh='kubectl kustomize --enable-helm --load-restrictor LoadRestrictionsNone'
-
-# K8S COMPLETIONS
-# -------------
-
-source <(kubectl completion bash)
-complete -o default -F __start_kubectl k

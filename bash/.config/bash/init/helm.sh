@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # =============
 # HELM INIT - tld 9.30.26
 # =============
