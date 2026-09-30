@@ -33,11 +33,13 @@ shopt -s checkwinsize
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    if [ -r "$HOME/.dircolors" ]; then
+        eval "$(dircolors -b "$HOME/.dircolors")"
+    else
+        eval "$(dircolors -b)"
+    fi
 
+    alias ls='ls --color=auto'
     alias grep='grep --color=auto'
 fi
 
@@ -59,10 +61,12 @@ export PATH="$HOME/.local/bin:$PATH"
 # =============
 
 for helper_file in "$HOME"/.config/bash/helpers/aliases/*.sh; do
+    # shellcheck disable=SC1090
     [[ -r "$helper_file" ]] && source "$helper_file"
 done
 
 for helper_file in "$HOME"/.config/bash/helpers/functions/*.sh; do
+    # shellcheck disable=SC1090
     [[ -r "$helper_file" ]] && source "$helper_file"
 done
 
@@ -73,6 +77,7 @@ unset helper_file
 # =============
 
 for init_file in "$HOME"/.config/bash/init/*.sh; do
+    # shellcheck disable=SC1090
     [[ -r "$init_file" ]] && source "$init_file"
 done
 
@@ -90,5 +95,7 @@ if ! shopt -oq posix; then
 fi
 
 export NVM_DIR="$HOME/.nvm"
+# shellcheck disable=SC1091
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# shellcheck disable=SC1091
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
