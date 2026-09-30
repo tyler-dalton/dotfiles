@@ -135,7 +135,7 @@ alias ff-suse='fastfetch --logo suse'
 
 
 # TAILS OS
-alias ff-tails='fastfetch --logo tails --logo-color-1 "38;2;95;42;117'
+alias ff-tails='fastfetch --logo tails --logo-color-1 "38;2;95;42;117"'
 # TEMPLEOS
 alias ff-temple='fastfetch --logo templeos'
 
