@@ -5,9 +5,11 @@
 
 if command -v fzf >/dev/null 2>&1; then
     [[ -r /usr/share/doc/fzf/examples/key-bindings.bash ]] &&
+        # shellcheck disable=SC1091
         source /usr/share/doc/fzf/examples/key-bindings.bash
 
     [[ -r /usr/share/doc/fzf/examples/completion.bash ]] &&
+        # shellcheck disable=SC1091
         source /usr/share/doc/fzf/examples/completion.bash
 fi
 
