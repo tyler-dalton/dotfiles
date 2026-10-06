@@ -55,8 +55,8 @@ gui:
         icon: "\uF48A"
         color: "#7dcfff"
       "Chart.yaml":
-        icon: "..."
-        color: "..."
+        icon: "\uE615"
+        color: "#7aa2f7"
       "values.yaml":
         icon: "\uE615"
         color: "#e0af68"
@@ -77,11 +77,11 @@ gui:
         icon: "\uF48A"
         color: "#c0caf5"
       ".yaml":
-        icon: "..."
-        color: "..."
+        icon: "Ƴ"
+        color: "#e06c75"
       ".yml":
-        icon: "..."
-        color: "..."
+        icon: "Ƴ"
+        color: "#e06c75"
       ".sh":
         icon: "\uE795"
         color: "#9ece6a"
