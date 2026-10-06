@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 # =============
-# COMMON FUNCTIONS - tld 9.25.26
+# COMMON FUNCTIONS - tld 10.05.26
 # =============
 
 # Make a directory, enter it at the same time
@@ -105,3 +105,28 @@ ipa-del() { sudo ip addr del "$2" dev "$1"; }
 
 ipr-set() { sudo ip route replace default via "$2" dev "$1"; }
 ipr-del() { sudo ip route del default via "$2" dev "$1"; }
+
+# Start npm server for web portfolio
+## Use: dev portfolio
+# -------------
+
+dev() {
+    local repo="$1"
+    local repo_dir="$HOME/$repo"
+
+    if [[ -z "$repo" ]]; then
+        echo "Usage: dev <repository>"
+        return 1
+    fi
+    if [[ ! -d "$repo_dir/.git" ]]; then
+        echo "Not a Git repository: $repo_dir"
+        return 1
+    fi
+    if [[ ! -f "$repo_dir/package.json" ]]; then
+        echo "No package.json found in $repo"
+        return 1
+    fi
+
+    cd "$repo_dir" || return 1
+    npm run dev
+}
