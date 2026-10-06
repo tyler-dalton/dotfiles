@@ -1,13 +1,18 @@
 gui:
   border: rounded
   nerdFontsVersion: "3"
+  sidePanelWidth: 0.32
+
   scrollHeight: 2
   scrollPastBottom: true
   scrollOffMargin: 2
   filterMode: fuzzy
+
   wrapLinesInStagingView: true
+
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
+
   theme:
     activeBorderColor:
       - "#7aa2f7"
@@ -38,3 +43,13 @@ git:
   log:
     order: topo-order
     showGraph: always
+
+customCommands:
+  - key: "O"
+    context: "global"
+    command: "gh repo view --web"
+    description: "Open repository in GitHub"
+  - key: "P"
+    context: "global"
+    command: "gh pr view --web"
+    description: "Open pull request in GitHub"
