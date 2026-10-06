@@ -14,6 +14,12 @@ gui:
 
   wrapLinesInStagingView: true
   showDivergenceFromBaseBranch: arrowAndNumber
+  showNumstatInFilesView: true
+  fileTreeSortOrder: foldersFirst
+
+  commitAuthorShortLength: 2
+  commitAuthorLongLength: 17
+  commitHashLength: 10
 
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
