@@ -20,3 +20,9 @@ gui:
     searchingActiveBorderColor:
       - "#bb9af7"
       - bold
+    optionsTextColor:
+      - "#7dcfff"
+    selectedLineBgColor:
+      - reverse
+    inactiveViewSelectedLineBgColor:
+      - bold
