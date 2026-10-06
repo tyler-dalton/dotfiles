@@ -3,6 +3,7 @@
     "bunzip",
     "committerdate",
     "ludeeus",
+    "Numstat",
     "rerere",
     "shellcheck",
     "zdiff"
