@@ -36,6 +36,7 @@ alias rm='rm -v'
 alias a='apt'
 alias sa='sudo apt'
 alias ai='sudo apt install'
+alias aiy='sudo apt install -y'
 alias ar='sudo apt remove'
 alias ap='sudo apt purge'
 
