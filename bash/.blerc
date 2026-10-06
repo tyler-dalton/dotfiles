@@ -43,3 +43,7 @@ ble-face syntax_tilde=none
 
 # Keep actual syntax errors obvious.
 ble-face syntax_error='fg=231,bg=160,bold'
+
+# Make fzf's Bash bindings cooperate with ble.sh.
+ble-import integration/fzf-completion
+ble-import integration/fzf-key-bindings
