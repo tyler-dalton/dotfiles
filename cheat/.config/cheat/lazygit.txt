@@ -6,6 +6,6 @@
 # ?: Open help menu
 # z: undo
 # Shift + Z: redo
-# Shift + A: View GitHub Actions runs
+# Ctrl + A: View GitHub Actions runs
 # Shift + I: View GitHub Issues
 
