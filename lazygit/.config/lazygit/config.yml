@@ -107,6 +107,9 @@ gui:
       - "⠏"
     rate: 80
 
+  authorColors:
+    "Tyler Dalton": "#7dcfff"
+
   showRandomTip: false
   showCommandLog: false
   showBottomLine: true
