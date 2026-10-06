@@ -1,12 +1,32 @@
 {
   "cSpell.words": [
+    "bashtop",
+    "bitrates",
+    "bpytop",
     "bunzip",
     "committerdate",
+    "coretemp",
+    "iface",
+    "Kbps",
+    "Kibibytes",
+    "Kibps",
+    "loglevel",
     "ludeeus",
+    "Mbps",
+    "Mebibits",
+    "Mibps",
+    "mountpoint",
     "Numstat",
+    "nvml",
     "rels",
     "rerere",
+    "rsmi",
+    "setcap",
+    "setuid",
     "shellcheck",
+    "smaps",
+    "strftime",
+    "truecolor",
     "zdiff"
   ]
 }
