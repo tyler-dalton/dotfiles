@@ -19,7 +19,8 @@ gui:
 
   commitAuthorShortLength: 2
   commitAuthorLongLength: 17
-  commitHashLength: 10
+  commitHashLength: 7
+  splitDiff: auto
 
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
@@ -47,6 +48,43 @@ gui:
       - "#24283b"
     defaultFgColor:
       - "#c0caf5"
+
+  customIcons:
+    filenames:
+      "README.md":
+        icon: "..."
+        color: "..."
+      "Chart.yaml":
+        icon: "..."
+        color: "..."
+      "values.yaml":
+        icon: "..."
+        color: "..."
+      "package.json":
+        icon: "..."
+        color: "..."
+      "package-lock.json":
+        icon: "..."
+        color: "..."
+      "astro.config.mjs":
+        icon: "..."
+        color: "..."
+    extensions:
+      ".astro":
+        icon: "..."
+        color: "..."
+      ".mdx":
+        icon: "..."
+        color: "..."
+      ".yaml":
+        icon: "..."
+        color: "..."
+      ".yml":
+        icon: "..."
+        color: "..."
+      ".sh":
+        icon: "..."
+        color: "..."
 
   showRandomTip: false
   showCommandLog: false
