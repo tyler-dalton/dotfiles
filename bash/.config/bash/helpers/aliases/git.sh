@@ -73,3 +73,7 @@ alias gstow='git stash'
 alias gstowl='git stash list'
 alias gpop='git stash pop'
 alias gstowu='git stash -u'
+
+# LAZYGIT
+# ---------------
+alias lg='lazygit'
