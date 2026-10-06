@@ -8,5 +8,4 @@ if [[ -r "$HOME/.local/share/blesh/ble.sh" ]]; then
 
     # Show the inline history-based suggestion - accept w/ right arrow key.
     bleopt complete_auto_complete=1
-    ble-bind -m emacs -f 'C-f' complete
 fi
