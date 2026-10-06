@@ -1,0 +1,11 @@
+# Shift + O: Open repository in GitHub
+# <c-r>: Switch to a recent repository
+# p: pull from origin
+# P: push to origin
+# Shift + R: Refresh repository in Lazygit
+# ?: Open help menu
+# z: undo
+# Shift + Z: redo
+# Shift + A: View GitHub Actions runs
+# Shift + I: View GitHub Issues
+
