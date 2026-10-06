@@ -3,7 +3,12 @@
 # =============
 
 add_newline = true
-right_format = "$time"
+format = """
+$hostname$directory$git_branch$git_status$git_state$helm$package$cmd_duration$fill$time
+$character"""
+
+[fill]
+symbol = " "
 
 [character]
 success_symbol = '[❯](bold #50D75A)'
