@@ -1,16 +1,13 @@
 gui:
   border: rounded
   nerdFontsVersion: "3"
-
   scrollHeight: 2
   scrollPastBottom: true
   scrollOffMargin: 2
   filterMode: fuzzy
-
   wrapLinesInStagingView: true
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
-
   theme:
     activeBorderColor:
       - "#7aa2f7"
@@ -20,14 +17,12 @@ gui:
     searchingActiveBorderColor:
       - "#bb9af7"
       - bold
-
     optionsTextColor:
       - "#7dcfff"
     selectedLineBgColor:
       - reverse
     inactiveViewSelectedLineBgColor:
       - bold
-
     unstagedChangesColor:
       - "#f7768e"
     markedBaseCommitFgColor:
@@ -36,3 +31,7 @@ gui:
       - "#24283b"
     defaultFgColor:
       - "#c0caf5"
+git:
+  paging:
+    - colorArg: always
+      pager: delta --dark --paging=never
