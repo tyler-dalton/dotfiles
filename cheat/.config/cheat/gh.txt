@@ -1,0 +1,27 @@
+# located in ~/dotfiles/gh/.config/gh/config.yml
+aliases:
+    co: pr checkout
+
+    prs: pr status
+    prl: pr list
+    prv: pr view
+    prvw: pr view --web
+    prw: pr view worktree
+    prc: pr create
+    prd: pr diff
+    checks: pr checks
+    mine: pr list --author @me
+
+    issues: issue list
+    iss: issue view
+    issw: issue view --web
+
+    run: run list
+    runview: run view
+    runwatch: run watch
+    logs: run view --log
+
+    rels: release list
+    rv: repo view
+    wf: workflow list
+    wr: workflow run
