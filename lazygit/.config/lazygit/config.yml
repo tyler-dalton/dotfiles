@@ -1,3 +1,10 @@
+# =============
+# LAZYGIT - tld 10.05.26
+# =============
+
+# GUI / LAYOUT
+# -------------
+
 gui:
   border: rounded
   nerdFontsVersion: "3"
@@ -7,11 +14,13 @@ gui:
   shrinkSidePanelsToContent: true
   mainPanelSplitMode: flexible
 
+  # NAVIGATION
   scrollHeight: 2
   scrollPastBottom: true
   scrollOffMargin: 2
   filterMode: fuzzy
 
+  # FILES / COMMITS
   wrapLinesInStagingView: true
   showDivergenceFromBaseBranch: arrowAndNumber
   showNumstatInFilesView: true
@@ -22,8 +31,12 @@ gui:
   commitHashLength: 7
   splitDiff: auto
 
+  # TIME
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
+
+  # THEME
+  # -------------
 
   theme:
     activeBorderColor:
@@ -49,6 +62,7 @@ gui:
     defaultFgColor:
       - "#c0caf5"
 
+  # CUSTOM ICONS
   customIcons:
     filenames:
       "README.md":
@@ -86,6 +100,7 @@ gui:
         icon: "\uE795"
         color: "#9ece6a"
 
+  # BRANCH COLORS
   branchColorPatterns:
     "^feat/": "#9ece6a"
     "^fix/": "#f7768e"
@@ -93,6 +108,7 @@ gui:
     "^refactor/": "#bb9af7"
     "^chore/": "#e0af68"
 
+  # SPINNER
   spinner:
     frames:
       - "⠋"
@@ -107,14 +123,16 @@ gui:
       - "⠏"
     rate: 80
 
-  authorColors:
-    "Tyler Dalton": "#7dcfff"
-
+  # UI CLEANUP
   showRandomTip: false
   showCommandLog: false
   showBottomLine: true
   showPanelJumps: true
+  authorColors:
+    "Tyler Dalton": "#7dcfff"
 
+# GIT
+# -------------
 git:
   pagers:
     - colorArg: always
@@ -123,6 +141,8 @@ git:
     order: topo-order
     showGraph: always
 
+# CUSTOM COMMANDS
+# -------------
 customCommands:
   - key: "O"
     context: "global"
