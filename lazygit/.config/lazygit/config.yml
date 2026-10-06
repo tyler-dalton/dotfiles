@@ -1,6 +1,6 @@
 gui:
   border: rounded
-  nerdFontsVersion: 3
+  nerdFontsVersion: "3"
 
   scrollHeight: 2
   scrollPastBottom: true
@@ -20,9 +20,19 @@ gui:
     searchingActiveBorderColor:
       - "#bb9af7"
       - bold
+
     optionsTextColor:
       - "#7dcfff"
     selectedLineBgColor:
       - reverse
     inactiveViewSelectedLineBgColor:
       - bold
+
+    unstagedChangesColor:
+      - "#f7768e"
+    markedBaseCommitFgColor:
+      - "#e0af68"
+    markedBaseCommitBgColor:
+      - "#24283b"
+    defaultFgColor:
+      - "#c0caf5"
