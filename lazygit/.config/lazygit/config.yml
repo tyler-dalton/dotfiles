@@ -1,0 +1,12 @@
+gui:
+  border: rounded
+  nerdFontsVersion: 3
+
+  scrollHeight: 2
+  scrollPastBottom: true
+  scrollOffMargin: 2
+  filterMode: fuzzy
+
+  wrapLinesInStagingView: true
+  timeFormat: "Jan-02 15:04:05"
+  shortTimeFormat: "15:04"
