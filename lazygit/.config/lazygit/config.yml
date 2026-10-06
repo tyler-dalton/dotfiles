@@ -2,6 +2,10 @@ gui:
   border: rounded
   nerdFontsVersion: "3"
   sidePanelWidth: 0.32
+  expandFocusedSidePanel: true
+  expandedSidePanelWeight: 2
+  shrinkSidePanelsToContent: true
+  mainPanelSplitMode: flexible
 
   scrollHeight: 2
   scrollPastBottom: true
@@ -49,6 +53,7 @@ customCommands:
     context: "global"
     command: "gh repo view --web"
     description: "Open repository in GitHub"
+    # TODO change key. Shift + P already used for push to origin
   - key: "P"
     context: "global"
     command: "gh pr view --web"
