@@ -10,3 +10,13 @@ gui:
   wrapLinesInStagingView: true
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
+
+  theme:
+    activeBorderColor:
+      - "#7aa2f7"
+      - bold
+    inactiveBorderColor:
+      - "#565f89"
+    searchingActiveBorderColor:
+      - "#bb9af7"
+      - bold
