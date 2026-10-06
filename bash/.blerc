@@ -5,7 +5,7 @@ bleopt highlight_syntax=
 bleopt highlight_variable=
 
 # Keep suggestions, but wait long enough that they do not jump in mid-thought.
-bleopt complete_auto_delay=250
+bleopt complete_auto_delay=200
 
 # Inline suggestions should come from the history.
 bleopt complete_auto_complete_opts=syntax-disabled
@@ -14,9 +14,14 @@ bleopt complete_auto_complete_opts=syntax-disabled
 bleopt complete_menu_complete=
 bleopt complete_menu_filter=
 
-ble-face auto_complete='fg=240'
+ble-face auto_complete='fg=245,italic,underline'
 
 bleopt prompt_eol_mark=''
 bleopt exec_errexit_mark=
 bleopt exec_exit_mark=
 bleopt edit_marker=
+
+# Keep auto-suggestions enabled
+bleopt complete_auto_complete=1
+# When a suggestion is visible, Right Arrow accepts and runs it
+ble-bind -m auto_complete -f right auto_complete/accept-line
