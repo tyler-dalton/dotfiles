@@ -71,11 +71,11 @@ gui:
         color: "#ff966c"
     extensions:
       ".astro":
-        icon: "..."
-        color: "..."
+        icon: "\uE6B5"
+        color: "#ff966c"
       ".mdx":
-        icon: "..."
-        color: "..."
+        icon: "\uF48A"
+        color: "#c0caf5"
       ".yaml":
         icon: "..."
         color: "..."
@@ -83,8 +83,8 @@ gui:
         icon: "..."
         color: "..."
       ".sh":
-        icon: "..."
-        color: "..."
+        icon: "\uE795"
+        color: "#9ece6a"
 
   showRandomTip: false
   showCommandLog: false
