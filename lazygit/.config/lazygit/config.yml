@@ -52,23 +52,23 @@ gui:
   customIcons:
     filenames:
       "README.md":
-        icon: "..."
-        color: "..."
+        icon: "\uF48A"
+        color: "#7dcfff"
       "Chart.yaml":
         icon: "..."
         color: "..."
       "values.yaml":
-        icon: "..."
-        color: "..."
+        icon: "\uE615"
+        color: "#e0af68"
       "package.json":
-        icon: "..."
-        color: "..."
+        icon: "\uE71E"
+        color: "#f7768e"
       "package-lock.json":
-        icon: "..."
-        color: "..."
+        icon: "\uF023"
+        color: "#bb9af7"
       "astro.config.mjs":
-        icon: "..."
-        color: "..."
+        icon: "\uE6B5"
+        color: "#ff966c"
     extensions:
       ".astro":
         icon: "..."
