@@ -86,6 +86,13 @@ gui:
         icon: "\uE795"
         color: "#9ece6a"
 
+  branchColorPatterns:
+    "^feat/": "#9ece6a"
+    "^fix/": "#f7768e"
+    "^docs/": "#7dcfff"
+    "^refactor/": "#bb9af7"
+    "^chore/": "#e0af68"
+
   showRandomTip: false
   showCommandLog: false
   showBottomLine: true
