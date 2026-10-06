@@ -17,3 +17,6 @@ Thumbs.db
 *.pfx
 .envrc
 .netrc
+
+# GitHub CLI authentication
+gh/.config/gh/hosts.yml
