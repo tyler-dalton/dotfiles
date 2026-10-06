@@ -93,6 +93,20 @@ gui:
     "^refactor/": "#bb9af7"
     "^chore/": "#e0af68"
 
+  spinner:
+    frames:
+      - "⠋"
+      - "⠙"
+      - "⠹"
+      - "⠸"
+      - "⠼"
+      - "⠴"
+      - "⠦"
+      - "⠧"
+      - "⠇"
+      - "⠏"
+    rate: 80
+
   showRandomTip: false
   showCommandLog: false
   showBottomLine: true
