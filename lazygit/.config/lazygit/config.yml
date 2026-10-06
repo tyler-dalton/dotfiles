@@ -13,6 +13,7 @@ gui:
   filterMode: fuzzy
 
   wrapLinesInStagingView: true
+  showDivergenceFromBaseBranch: arrowAndNumber
 
   timeFormat: "Jan-02 15:04:05"
   shortTimeFormat: "15:04"
@@ -40,6 +41,12 @@ gui:
       - "#24283b"
     defaultFgColor:
       - "#c0caf5"
+
+  showRandomTip: false
+  showCommandLog: false
+  showBottomLine: true
+  showPanelJumps: true
+
 git:
   pagers:
     - colorArg: always
@@ -53,8 +60,3 @@ customCommands:
     context: "global"
     command: "gh repo view --web"
     description: "Open repository in GitHub"
-    # TODO change key. Shift + P already used for push to origin
-  - key: "P"
-    context: "global"
-    command: "gh pr view --web"
-    description: "Open pull request in GitHub"
