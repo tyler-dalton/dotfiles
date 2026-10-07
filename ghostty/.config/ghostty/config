@@ -12,6 +12,7 @@ selection-foreground = #ffffff
 
 window-padding-x = 14
 window-padding-y = 12
+window-decoration = false
 
 background-opacity = 0.90
 background-blur-radius = 0
