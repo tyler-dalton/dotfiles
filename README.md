@@ -17,6 +17,7 @@ then stow whatever you want:
 
 ```bash
 stow bash
+stow bat
 stow btop
 stow cheat
 stow fastfetch

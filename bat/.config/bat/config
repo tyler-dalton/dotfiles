@@ -1,0 +1,8 @@
+# Bat — terminal-native, compact, and readable
+
+--theme=ansi
+--style=numbers,changes,header
+--paging=auto
+--italic-text=always
+--tabs=2
+--wrap=never
