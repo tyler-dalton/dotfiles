@@ -28,6 +28,7 @@ stow lazygit
 stow starship
 stow vscode
 stow wallpapers
+stow yamllint
 ```
 
 or everything:
