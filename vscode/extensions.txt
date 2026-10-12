@@ -11,6 +11,6 @@ oderwat.indent-rainbow
 redhat.vscode-yaml
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries
+unifiedjs.vscode-mdx
 usernamehw.errorlens
-wayou.vscode-todo-highlight
 yzhang.markdown-all-in-one
