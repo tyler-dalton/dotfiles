@@ -71,6 +71,8 @@ alias ff-freebsd='fastfetch --logo freebsd'
 alias ff-gentoo='fastfetch --logo gentoo'
 # GHOST FREAK
 alias ff-ghost='fastfetch --logo ghostfreak'
+# GITHUB
+alias ff-gh='fastfetch --logo github --logo-color-1 black'
 # GNOME
 alias ff-gnome='fastfetch --logo gnome'
 # GNU
