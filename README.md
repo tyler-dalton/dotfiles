@@ -17,12 +17,16 @@ then stow whatever you want:
 
 ```bash
 stow bash
+stow btop
 stow cheat
 stow fastfetch
+stow gh
 stow ghostty
 stow git
+stow lazygit
 stow starship
 stow vscode
+stow wallpapers
 ```
 
 or everything:
