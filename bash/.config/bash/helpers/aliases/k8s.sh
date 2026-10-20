@@ -5,6 +5,12 @@
 
 alias k='kubectl'
 
+alias talos='ssh dalt@192.168.33.11'
+alias helios='ssh dalt@192.168.33.12'
+alias orion='ssh dalt@192.168.33.13'
+alias argus='ssh dalt@192.168.33.14'
+alias daedalus='ssh dalt@192.168.33.15'
+
 # GET
 # -------------
 
