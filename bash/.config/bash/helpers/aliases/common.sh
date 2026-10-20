@@ -112,5 +112,6 @@ alias wttr='curl wttr.in'
 alias code-ext='code --list-extensions'
 alias ts='tailscale'
 alias ts-stat='tailscale status'
-alias ts-up='sudo tailscale up --advertise-routes'
+alias ts-up='sudo tailscale up --accept-routes --accept-dns=false --operator=dalt'
 alias ts-d='tailscale down'
+
