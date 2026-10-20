@@ -1,6 +1,5 @@
-# shellcheck shell=bash
 # =============
-# SHELL / NAVIGATION - tld 10.05.26
+# SHELL / NAVIGATION - tld 10.20.26
 # =============
 
 alias ..='cd ..'
