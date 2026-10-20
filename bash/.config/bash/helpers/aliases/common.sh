@@ -114,4 +114,4 @@ alias ts='tailscale'
 alias ts-stat='tailscale status'
 alias ts-up='sudo tailscale up --accept-routes --accept-dns=false --operator=dalt'
 alias ts-d='tailscale down'
-
+alias tty='sudo screen /dev/ttyUSB0 9600'
