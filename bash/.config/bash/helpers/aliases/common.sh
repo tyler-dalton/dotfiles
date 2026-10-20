@@ -57,6 +57,8 @@ alias bashrc='code ~/dotfiles/bash/.bashrc'
 alias helpers='code ~/dotfiles/bash/.config/bash/helpers'
 alias dot='code ~/dotfiles'
 alias port='code ~/portfolio'
+alias dep='code ~/deployment-bags'
+alias homelab='code ~/homelab-infra'
 alias nrd='npm run dev'
 
 # POWER CONTROLS
