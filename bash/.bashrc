@@ -102,3 +102,10 @@ export NVM_DIR="$HOME/.nvm"
 
 export EDITOR="code --wait"
 export VISUAL="code --wait"
+
+# >>> grok installer >>>
+export PATH="$HOME/.grok/bin:$PATH"
+[[ -r "$HOME/.grok/completions/bash/grok.bash" ]] && source "$HOME/.grok/completions/bash/grok.bash"
+# <<< grok installer <<<
+
+export ANSIBLE_VAULT_PASSWORD_FILE="$HOME/.config/ansible/olympus-vault-client"
