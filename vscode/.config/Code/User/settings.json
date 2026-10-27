@@ -99,6 +99,7 @@
     "bpduguard",
     "btop",
     "bucees",
+    "cechuser",
     "chmodx",
     "confliction",
     "Consolas",
@@ -184,7 +185,7 @@
     "VRRP",
     "webp",
     "worktree",
-    "wttr"
+    "wttr",
   ],
   "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
   "redhat.telemetry.enabled": false,
