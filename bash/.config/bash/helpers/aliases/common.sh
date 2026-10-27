@@ -1,5 +1,5 @@
 # =============
-# SHELL / NAVIGATION - tld 10.20.26
+# SHELL / NAVIGATION - tld 10.27.26
 # =============
 
 alias ..='cd ..'
@@ -59,6 +59,9 @@ alias port='code ~/portfolio'
 alias dep='code ~/deployment-bags'
 alias homelab='code ~/homelab-infra'
 alias nrd='npm run dev'
+alias vim='nvim'
+alias vi='nvim'
+alias nv='nvim'
 
 # POWER CONTROLS
 # -------------
