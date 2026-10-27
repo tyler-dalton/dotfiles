@@ -1,10 +1,10 @@
 # =============
-# STARSHIP CONFIG - tld 9.29.26
+# STARSHIP CONFIG - tld 10.27.26
 # =============
 
 add_newline = true
 format = """
-$hostname$directory$git_branch$git_status$git_state$helm$package$cmd_duration$fill$time
+$hostname$directory$git_branch$helm$package$cmd_duration$fill$git_status$git_state$time
 $character"""
 
 [fill]
@@ -15,7 +15,7 @@ success_symbol = '[❯](bold #50D75A)'
 error_symbol = '[❯](bold #FF5C57)'
 
 [directory]
-style = 'bold #4EA1FF'
+style = 'bold #AEB6BF'
 truncation_length = 5
 truncate_to_repo = true
 truncation_symbol = "…/"
@@ -31,8 +31,8 @@ format = '[$time]($style) '
 
 [hostname]
 ssh_only = false
-style = 'bold #BBBBBB'
-format = '[$hostname]($style) [](bold #E95420) '
+style = 'bold #D5D8DC'
+format = "[$hostname]($style) [\uF0E7](bold #C6AD7F) "
 
 [git_commit]
 tag_disabled = false
@@ -43,7 +43,7 @@ style = 'bold #C678DD'
 format = 'on [$symbol$branch]($style) '
 
 [git_status]
-format = '([\[](#777777)$all_status$ahead_behind[\]](#777777))'
+format = '([\[](#777777)$all_status$ahead_behind[\]](#777777) )'
 modified = '[!${count}](bold #FF9E64) '
 staged = '[+${count}](bold #50FA7B) '
 untracked = '[?${count}](bold #61AFEF) '
