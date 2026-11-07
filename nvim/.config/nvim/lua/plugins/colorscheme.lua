@@ -18,14 +18,15 @@ return {
         sidebars = "transparent",
         floats = "transparent",
       },
+
       on_highlights = function(hl, colors)
-        hl.CursorLine = { bg = "#384358" }
-        hl.SnacksPickerListCursorLine = { bg = "485574", bold = true }
+        hl.CursorLine = { bg = colors.bg_highlight }
         hl.CursorLineNr = { fg = colors.blue, bold = true }
         hl.WinSeparator = { fg = colors.blue }
         hl.SnacksIndent = { fg = colors.bg_highlight }
         hl.SnacksIndentScope = { fg = colors.blue }
       end,
+
     },
   },
 }
