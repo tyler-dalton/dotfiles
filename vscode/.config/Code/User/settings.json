@@ -151,6 +151,7 @@
     "Panoptes",
     "pingdns",
     "pingg",
+    "portf",
     "portfast",
     "poweroff",
     "prereqs",
@@ -187,9 +188,12 @@
     "VRRP",
     "webp",
     "worktree",
-    "wttr"
+    "wttr",
   ],
   "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
   "redhat.telemetry.enabled": false,
   "chat.viewSessions.orientation": "stacked",
+
+  "vs-kubernetes.kubeconfig": "/home/dalt/.kube/config",
+  "vs-kubernetes.kubectl-path": "/usr/bin/kubectl"
 }
